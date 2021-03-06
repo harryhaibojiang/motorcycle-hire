@@ -1,0 +1,28 @@
+.bmwPartner {
+  position: absolute;
+  top: 110px;
+  right: 50px;
+
+  @media (max-width: 960px) {
+    top: 70px;
+    right: 50%;
+    transform: translate(50%, 0);
+  }
+}
+
+.brands {
+  background-image: url("/bg-brands.jpg");
+  height: 142px;
+
+  > div {
+    height: 100%;
+  }
+}
+
+.tours {
+  h4 {
+    font-size: 22px;
+    color: #f26b00;
+    margin-bottom: 20px;
+  }
+}

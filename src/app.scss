@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+// If need, change your variables before importing Bulma
+$primary: #f26b00;
+
+@import "~bulma/bulma.sass";
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h3,
+h4 {
+  font-weight: 500;
+  color: $primary;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.TourPreview {
+  .TourSelector {
+    margin: 8px;
+    opacity: 0.7;
+    cursor: pointer;
+
+    &.is-active {
+      opacity: 1;
+    }
+
+    img {
+      max-width: 120px;
+    }
+  }
+  &__main-area {
+    img {
+      max-width: 400px;
+    }
+  }
+}
+
+.GuidedBookingFormPage {
+  h2 {
+    background-color: $primary;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    margin: 32px 0 16px 0;
+  }
+}
