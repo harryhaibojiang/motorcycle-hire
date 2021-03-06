@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "motorcycle-hire",
+    siteUrl: "https://www.motorcycle-hire.co.nz",
   },
   plugins: [
     "gatsby-plugin-sass",
