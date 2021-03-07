@@ -89,7 +89,7 @@ export default function MotorPage({ data }) {
 
     return motors[brand];
   };
-  console.log(motorsData());
+
   return (
     <Layout>
       <main className="container">
