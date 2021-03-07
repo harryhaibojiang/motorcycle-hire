@@ -39,13 +39,13 @@ const motorBrands = [
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <main>
+      <main className="container">
         <Img fluid={data.banner.childImageSharp.fluid} alt="" />
         <div className={styles.bmwPartner}>
           <img src={bwmPartner} alt="" />
         </div>
         <section className="section">
-          <div className="container">
+          <div>
             <h1 className="title">
               Rental Motorcycles in New Zealand since 1987
             </h1>

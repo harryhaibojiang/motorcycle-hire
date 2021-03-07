@@ -89,7 +89,7 @@ export default function MotorPage({ data }) {
 
     return motors[brand];
   };
-
+  console.log(motorsData());
   return (
     <Layout>
       <main className="container">
@@ -178,7 +178,7 @@ export const query = graphql`
         }
       }
     }
-    bmwR1200RTW: file(relativePath: { eq: "motors/bmw-r1200-rt.jpg" }) {
+    bmwR1200RT: file(relativePath: { eq: "motors/bmw-r1200-rt.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
