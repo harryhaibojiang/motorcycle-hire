@@ -161,7 +161,7 @@ const IndexPage = ({ data }) => {
           scrolling="auto"
           webkitallowfullscreen=""
           mozallowfullscreen=""
-          allowfullscreen=""
+          allowFullScreen=""
         ></iframe>
       </main>
     </Layout>

@@ -134,7 +134,7 @@ const GuidedBookingForm = () => {
         <div className={classnames("modal", { "is-active": isOpenSentModal })}>
           <div className="modal-background"></div>
           <div className="modal-card">
-            <section class="modal-card-body">
+            <section className="modal-card-body">
               We have received your form, and will get back to you soon.
               <br />
               <button className="button" onClick={() => window.history.back()}>

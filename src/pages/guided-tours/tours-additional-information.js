@@ -6,8 +6,8 @@ import photoToursAdditionalInfo from "../../images/tours/photo-toursadditionalin
 const ToursAdditionalInfomation = () => {
   return (
     <Layout>
-      <img src={photoBanner} alt="" />
       <main className="container mt-4">
+        <img src={photoBanner} alt="" />
         <h1>Tours Additional Information</h1>
         <br />
         <div className="mx-4 columns">

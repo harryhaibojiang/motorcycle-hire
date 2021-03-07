@@ -32,8 +32,8 @@ const tourStyles = [
 const ToursPage = () => {
   return (
     <Layout>
-      <img src={photoBanner} alt="" />
       <main className="container mt-4">
+        <img src={photoBanner} alt="" />
         <h1 className="has-text-centered">Fully Guided Tours</h1>
         <br />
         <div className="mx-4">
