@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: "https://www.motorcycle-hire.co.nz",
   },
   plugins: [
+    `gatsby-plugin-transition-link`,
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-plugin-google-analytics",
