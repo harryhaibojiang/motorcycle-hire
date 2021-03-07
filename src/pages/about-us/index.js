@@ -69,7 +69,7 @@ const AboutUs = () => {
           src="https://player.vimeo.com/video/217142798?title=0&byline=0&portrait=0"
           width="100%"
           height="560"
-          frameborder="0"
+          frameBorder="0"
           scrolling="auto"
           webkitallowfullscreen=""
           mozallowfullscreen=""

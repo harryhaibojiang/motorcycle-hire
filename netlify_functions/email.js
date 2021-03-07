@@ -7,9 +7,9 @@ exports.handler = async function (event, context) {
   const body = JSON.parse(event.body);
 
   const data = {
-    from: body.from,
-    to: "harryhaibojiang@gmail.com",
-    subject: body.subject,
+    from: body.from || "harryhaibojiang@gmail.com",
+    to: "harryhaibojiang@gmail.com, nzbike@motorcycle-hire.co.nz",
+    subject: body.subject || "Customer enquiry",
     text: JSON.stringify(body.form, null, "\t"),
   };
 

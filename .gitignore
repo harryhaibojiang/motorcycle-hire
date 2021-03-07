@@ -2,3 +2,7 @@ node_modules
 .cache
 .vscode
 public
+.env.development
+
+# Local Netlify folder
+.netlify
