@@ -160,11 +160,15 @@ const BookingForm = () => {
       <div className={classnames("modal", { "is-active": isOpenSentModal })}>
         <div className="modal-background"></div>
         <div className="modal-card">
-          <section className="modal-card-body">
+          <section className="modal-card-body has-text-centered">
             We have received your form, and will get back to you soon.
             <br />
-            <button className="button" onClick={() => window.history.back()}>
-              Back
+            <br />
+            <button
+              className="button is-primary"
+              onClick={() => setOpenSentModal(false)}
+            >
+              OK
             </button>
           </section>
         </div>

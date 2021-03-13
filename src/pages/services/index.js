@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import ListDescription from "../../components/ListDescription";
 import imgService from "../../images/service.jpg";
 import imgService2 from "../../images/service2.jpg";
+import ServiceForm from "../../components/ServiceForm";
 
 const Services = () => {
   return (
@@ -75,6 +76,7 @@ const Services = () => {
             <img src={imgService2} alt="" />
           </div>
         </section>
+        <ServiceForm />
       </main>
     </Layout>
   );
