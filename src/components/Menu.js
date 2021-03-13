@@ -11,7 +11,7 @@ const menus = [
     url: "/rental-motorcycles",
   },
   {
-    text: "Services",
+    text: "Motorcycle Service",
     url: "/services",
   },
   {
