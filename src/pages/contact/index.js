@@ -22,7 +22,7 @@ const ContactUs = () => {
                   <br />
                   John Rains
                   <br />
-                  Gordon Lidgard
+                  Nan Miao
                   <br />
                   Perry Rees
                 </p>

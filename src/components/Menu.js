@@ -7,8 +7,12 @@ import tours from "../content/tours";
 
 const menus = [
   {
-    text: "Motorcycles",
+    text: "Motorcycle Hire",
     url: "/rental-motorcycles",
+  },
+  {
+    text: "Services",
+    url: "/services",
   },
   {
     text: "Guided Tours",
@@ -58,10 +62,7 @@ const menus = [
     text: "About Us",
     url: "/about-us",
   },
-  {
-    text: "Services",
-    url: "/services",
-  },
+
   {
     text: "Book",
     url: "/book",
