@@ -9,6 +9,7 @@ import { Carousel } from "react-responsive-carousel";
 import classnames from "classnames";
 import TourPreview from "../components/TourPreview";
 import tours from "../content/tours";
+import logo from "../images/logo-big.png";
 
 const sinceDescription = [
   "New Zealand is not just about the destination but about the journey - home of The Worlds Greatest Motorcycle Rides. Ask about our personalised guided or self guided motorbike deluxe or adventure tours.",
@@ -39,40 +40,43 @@ const motorBrands = [
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <main className="container">
+      <main>
         <Img fluid={data.banner.childImageSharp.fluid} alt="" />
+        <div className={styles.logo}>
+          <img src={logo} alt="" />
+        </div>
         <div className={styles.bmwPartner}>
           <img src={bwmPartner} alt="" />
         </div>
-        <section className="section">
-          <div>
-            <h1 className="title">
-              Rental Motorcycles in New Zealand since 1987
-            </h1>
-            <p>
-              Hire a BMW, Triumph or Suzuki Motorcycle from Te Waipounamu
-              Motorcycle Tours Ltd, you’re renting more than one of the best
-              touring models available, more than a superbly maintained piece of
-              engineering - you’re hiring a holiday of a lifetime. Our fleet of
-              over 100 rental motorbikes are immaculately presented with the
-              best tyres for our twisty roads, a full range of accessories are
-              available.
-            </p>
-            <br />
-            <ul>
-              {sinceDescription.map((des, index) => (
-                <li key={index} className="columns">
-                  <div className="column is-narrow">
-                    <i className="arrow right mr-2" />
-                  </div>
-                  <p className="column">{des}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-        <section>
-          <div className="container">
+        <div className="container">
+          <section className="section">
+            <div>
+              <h1 className="title">
+                Rental Motorcycles in New Zealand since 1987
+              </h1>
+              <p>
+                Hire a BMW, Triumph or Suzuki Motorcycle from Te Waipounamu
+                Motorcycle Tours Ltd, you’re renting more than one of the best
+                touring models available, more than a superbly maintained piece
+                of engineering - you’re hiring a holiday of a lifetime. Our
+                fleet of over 100 rental motorbikes are immaculately presented
+                with the best tyres for our twisty roads, a full range of
+                accessories are available.
+              </p>
+              <br />
+              <ul>
+                {sinceDescription.map((des, index) => (
+                  <li key={index} className="columns">
+                    <div className="column is-narrow">
+                      <i className="arrow right mr-2" />
+                    </div>
+                    <p className="column">{des}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+          <section>
             <Carousel infiniteLoop centerMode showThumbs={false}>
               {motorBrands.map((brand) => (
                 <div key={brand.id}>
@@ -87,82 +91,86 @@ const IndexPage = ({ data }) => {
                 </div>
               ))}
             </Carousel>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container is-flex is-justify-content-center">
-            <img
-              src={logoBMWPartner}
-              alt="offical main partner of BMW MOTORRAD"
-            />
-          </div>
-        </section>
-        <section className={styles.brands}>
-          <div className="container is-flex is-justify-content-space-evenly is-align-items-center">
-            <Img fixed={data.hondaLogo.childImageSharp.fixed} alt="honda" />
-            <Img fixed={data.suzukiLogo.childImageSharp.fixed} alt="suzuki" />
-            <Img fixed={data.triumphLogo.childImageSharp.fixed} alt="triumph" />
-          </div>
-        </section>
-        <section className={classnames(styles.tours, "columns", "section")}>
-          <div className="column">
-            <h4>Deluxe Fully Guided Tours</h4>
-            <p>
-              Touring with us is not about any strict regimentation or rules you
-              have to comply with. This is your holiday and it is up to us to
-              help you have the best one possible!
-            </p>
-            <br />
-            <p>
-              From the first evening introductory dinner to the moment we say
-              goodbye we have your best interests at heart. The motorcycles are
-              there at the hotel waiting for you. Our guides will advise you on
-              all aspects of New Zealand culture, road rules, the best places to
-              eat locally, and are there to ride with or assist you if needed.
-            </p>
-          </div>
-          <div className="column">
-            <h4>Self-Guided Tours</h4>
-            <p>
-              A perfect compromise between independent rental and a guided tour.
-              Take advantage of our 20 plus years in the business!
-            </p>
-            <br />
-            <p>
-              Using itineraries that have been fine tuned over this period of
-              time with matching accommodation in wonderful locations. Yes we
-              can also customise a self guided tour specifically for you or
-              modify one of ours to fit your travel plans. Ask us!
-            </p>
-          </div>
-          <div className="column">
-            <h4>New GS Bikes - New GS Enduro Tours – unpaved outback!</h4>
-            <p>
-              We are proud to announce the arrival of a new fleet of BMW R850GS
-              and R1250GS to add to our range of models available for Hire and
-              Tours. All our BMW GS models will be permitted to drive on gravel
-              roads, in conjunction with this we are introducing gravel road
-              insurance for peace of mind when taking GS models to explore New
-              Zealand’s extensive and magical unpaved outback on public gravel
-              roads and 4X4 tracks. A regular feature will be professionally
-              guided GS Enduro Tours.
-            </p>
-          </div>
-        </section>
-        <section className="section">
-          <TourPreview tours={tours.guided.concat(tours.selfGuided)} />
-        </section>
-        <iframe
-          className="embed-responsive-item"
-          src="https://player.vimeo.com/video/217142552?title=0&amp;byline=0&amp;portrait=0"
-          width="100%"
-          height="560"
-          frameBorder="0"
-          scrolling="auto"
-          webkitallowfullscreen=""
-          mozallowfullscreen=""
-          allowFullScreen=""
-        ></iframe>
+          </section>
+          <section className="section">
+            <div className="is-flex is-justify-content-center">
+              <img
+                src={logoBMWPartner}
+                alt="offical main partner of BMW MOTORRAD"
+              />
+            </div>
+          </section>
+          <section className={styles.brands}>
+            <div className="is-flex is-justify-content-space-evenly is-align-items-center">
+              <Img fixed={data.hondaLogo.childImageSharp.fixed} alt="honda" />
+              <Img fixed={data.suzukiLogo.childImageSharp.fixed} alt="suzuki" />
+              <Img
+                fixed={data.triumphLogo.childImageSharp.fixed}
+                alt="triumph"
+              />
+            </div>
+          </section>
+          <section className={classnames(styles.tours, "columns", "section")}>
+            <div className="column">
+              <h4>Deluxe Fully Guided Tours</h4>
+              <p>
+                Touring with us is not about any strict regimentation or rules
+                you have to comply with. This is your holiday and it is up to us
+                to help you have the best one possible!
+              </p>
+              <br />
+              <p>
+                From the first evening introductory dinner to the moment we say
+                goodbye we have your best interests at heart. The motorcycles
+                are there at the hotel waiting for you. Our guides will advise
+                you on all aspects of New Zealand culture, road rules, the best
+                places to eat locally, and are there to ride with or assist you
+                if needed.
+              </p>
+            </div>
+            <div className="column">
+              <h4>Self-Guided Tours</h4>
+              <p>
+                A perfect compromise between independent rental and a guided
+                tour. Take advantage of our 20 plus years in the business!
+              </p>
+              <br />
+              <p>
+                Using itineraries that have been fine tuned over this period of
+                time with matching accommodation in wonderful locations. Yes we
+                can also customise a self guided tour specifically for you or
+                modify one of ours to fit your travel plans. Ask us!
+              </p>
+            </div>
+            <div className="column">
+              <h4>New GS Bikes - New GS Enduro Tours – unpaved outback!</h4>
+              <p>
+                We are proud to announce the arrival of a new fleet of BMW
+                R850GS and R1250GS to add to our range of models available for
+                Hire and Tours. All our BMW GS models will be permitted to drive
+                on gravel roads, in conjunction with this we are introducing
+                gravel road insurance for peace of mind when taking GS models to
+                explore New Zealand’s extensive and magical unpaved outback on
+                public gravel roads and 4X4 tracks. A regular feature will be
+                professionally guided GS Enduro Tours.
+              </p>
+            </div>
+          </section>
+          <section className="section">
+            <TourPreview tours={tours.guided.concat(tours.selfGuided)} />
+          </section>
+          <iframe
+            className="embed-responsive-item"
+            src="https://player.vimeo.com/video/217142552?title=0&amp;byline=0&amp;portrait=0"
+            width="100%"
+            height="560"
+            frameBorder="0"
+            scrolling="auto"
+            webkitallowfullscreen=""
+            mozallowfullscreen=""
+            allowFullScreen=""
+          ></iframe>
+        </div>
       </main>
     </Layout>
   );
