@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import imgNewZealand from "../../images/contact/newzealand.jpg";
 import imgPickup from "../../images/contact/pickupreturn.jpg";
 import imgFlights from "../../images/contact/flights.jpg";
+import BookingForm from "../../components/BookingForm";
 
 const ContactUs = () => {
   return (
@@ -153,7 +154,9 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="column"></div>
+          <div className="column">
+            <BookingForm />
+          </div>
         </div>
       </main>
     </Layout>
