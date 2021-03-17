@@ -4,9 +4,7 @@ exports.handler = async function (event, context) {
   var DOMAIN = process.env.MG_DOMAIN_NAME;
   var mailgun = require("mailgun-js")({ apiKey: API_KEY, domain: DOMAIN });
 
-  console.log(API_KEY);
-  console.log(DOMAIN);
-  console.log(event.body);
+  console.log("mailgun:", mailgun);
 
   const body = JSON.parse(event.body);
 
@@ -17,13 +15,15 @@ exports.handler = async function (event, context) {
     text: JSON.stringify(body.form, null, "\t"),
   };
 
-  mailgun.messages().send(data, (error, body) => {
-    console.log(error);
-    console.log(body);
-  });
-
-  return {
-    statusCode: 200,
-    body: event.body,
-  };
+  return mailgun
+    .messages()
+    .send(data)
+    .then(() => ({
+      statusCode: 200,
+      body: "Your message was sent successfully! We'll be in touch.",
+    }))
+    .catch((error) => ({
+      statusCode: 422,
+      body: `Error: ${error}`,
+    }));
 };

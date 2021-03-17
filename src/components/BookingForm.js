@@ -94,6 +94,7 @@ const BookingForm = () => {
               }}
             >
               <option>Please select tour...</option>
+              <option>Motorcycle hire only</option>
               {tours.guided.concat(tours.selfGuided).map((tour) => (
                 <option>{tour.title}</option>
               ))}
@@ -150,6 +151,15 @@ const BookingForm = () => {
                 setForm({ ...form, "Travel Date To": e.target.value })
               }
             />
+          </div>
+        </div>
+        <div className="field">
+          <label className="label">Message</label>
+          <div className="control">
+            <textarea
+              className="textarea"
+              onChange={(e) => setForm({ ...form, Message: e.target.value })}
+            ></textarea>
           </div>
         </div>
         <br />

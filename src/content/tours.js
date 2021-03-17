@@ -23,6 +23,7 @@ const selfGuidedTips = [
 const tours = {
   guided: [
     {
+      url: "/guided-tours/tour-of-the-mountain-kings",
       title: "Fred Rau's Tour of the Mountain Kings February",
       img: mountainKingImg,
       subtitle: "Personally Guided by Fred Rau.",
@@ -104,6 +105,7 @@ const tours = {
   ],
   selfGuided: [
     {
+      url: "/self-guided-tours/southern-moonlight-tour",
       title: "Southern Moonlight Tour",
       img: southernMoonlightImg,
       date: "01 May 2021 - 30 April 2022",
@@ -162,6 +164,7 @@ const tours = {
       },
     },
     {
+      url: "/self-guided-tours/3-week-maori-discovery-tour",
       title: "3 Weeks Maori Discovery Tour",
       img: maoriDiscoveryTour,
       date: "8th - 21st Feb 2022",
@@ -231,6 +234,7 @@ const tours = {
       },
     },
     {
+      url: "/self-guided-tours/2-week-deluxe-self-guided",
       title: "2 Weeks Deluxe Self Guided Tour",
       img: twoWeeksDeluxSelfGuidedImg,
       date: "01 May 2021 - 30 April 2022",
@@ -287,6 +291,7 @@ const tours = {
       },
     },
     {
+      url: "/self-guided-tours/3-week-deluxe-self-guided",
       title: "3 Weeks Deluxe Self Guided Tour",
       img: ThreeWeeksDeluxSelfGuidedImg,
       date: "01 May 2021 - 30 April 2022",

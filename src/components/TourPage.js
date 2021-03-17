@@ -29,7 +29,7 @@ const MoonlightTour = ({ tour }) => {
                     <div>
                       <div>Or:</div>
                       {p.similarModels.map((model) => (
-                        <div>{model}</div>
+                        <div key={model}>{model}</div>
                       ))}
                     </div>
                   )}

@@ -10,6 +10,7 @@ import classnames from "classnames";
 import TourPreview from "../components/TourPreview";
 import tours from "../content/tours";
 import logo from "../images/logo-big.png";
+import { Link } from "gatsby";
 
 const sinceDescription = [
   "New Zealand is not just about the destination but about the journey - home of The Worlds Greatest Motorcycle Rides. Ask about our personalised guided or self guided motorbike deluxe or adventure tours.",
@@ -20,8 +21,7 @@ const sinceDescription = [
 const motorBrands = [
   {
     id: "bmw",
-    subtitle:
-      "BMW R1250GS, BMW R1200RTW, R1200GSW, F850GS, F800GS, F700GS, F650GS",
+    subtitle: "BMW R1250GS, BMW R1200RTW, R1200GSW, F850GS, F700GS",
   },
   {
     id: "honda",
@@ -92,7 +92,7 @@ const IndexPage = ({ data }) => {
               ))}
             </Carousel>
           </section>
-          <section className="section">
+          {/* <section className="section">
             <div className="is-flex is-justify-content-center">
               <img
                 src={logoBMWPartner}
@@ -109,7 +109,7 @@ const IndexPage = ({ data }) => {
                 alt="triumph"
               />
             </div>
-          </section>
+          </section> */}
           <section className={classnames(styles.tours, "columns", "section")}>
             <div className="column">
               <h4>Deluxe Fully Guided Tours</h4>
@@ -157,7 +157,31 @@ const IndexPage = ({ data }) => {
             </div>
           </section>
           <section className="section">
-            <TourPreview tours={tours.guided.concat(tours.selfGuided)} />
+            <Carousel infiniteLoop centerMode showThumbs={false}>
+              {tours.guided.concat(tours.selfGuided).map((tour) => (
+                <div
+                  key={tour.title}
+                  className="TourPreview__main-area columns is-vcentered"
+                >
+                  <div className="column is-half has-text-centered">
+                    <img src={tour.img} alt="" />
+                  </div>
+                  <div className="column is-half has-text-white">
+                    <h2>{tour.title}</h2>
+                    <h5>{tour.subtitle}</h5>
+                    <h5>{tour.date}</h5>
+                    <h5>{tour.route}</h5>
+                    <br />
+                    <p>{tour.brief}</p>
+                    <br />
+                    <Link className="button is-primary" to={tour.url}>
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              ))}
+            </Carousel>
+            {/* <TourPreview tours={tours.guided.concat(tours.selfGuided)} /> */}
           </section>
           <iframe
             className="embed-responsive-item"

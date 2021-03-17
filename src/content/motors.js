@@ -2,7 +2,7 @@ import img1BMWR1250GS from "../images/motors/bmw-r1250-gs2.jpg";
 import img1BMWR1200GS from "../images/motors/bmw-r1200-gs.jpg";
 import img1BMWR1200RT from "../images/motors/bmw-r1200-rt.jpg";
 import img1BMWF850GS from "../images/motors/bmw-f850gs.jpg";
-import img1BMWF750GS from "../images/motors/bmw-f750gs.jpg";
+// import img1BMWF750GS from "../images/motors/bmw-f750gs.jpg";
 import img1BMWF700GS from "../images/motors/bmw-f700gs.jpg";
 import img1HondaVT750S from "../images/motors/honda-vt750s.jpg";
 import img1HondaCMX500 from "../images/motors/honda-cmx500.jpg";
@@ -421,90 +421,90 @@ export const motors = {
         "And not just on paved roads. With the BMW F 850 GS Adventure, you'll conquer new terrain, be ready for new adventures and be ready to ride – wher-ever you go. This travel enduro is made for real explorers. For people who think no destination is too far and no distance too remote. Experience the world with a companion that's so reliable, robust and powerful that it can even keep up with your curiosity. Introducing the new F 850 GS Adventure.",
       ],
     },
-    {
-      id: "bmwF750GS",
-      name: "BMW F750GS",
-      brief: "With Hard Luggage & Touring Screen included.",
-      link: "/bmw/bmw-f750-gs",
-      img1: img1BMWF750GS,
-      prices: [
-        { days: "15 to 21", peak: "$195.00", shoulder: "$179.00" },
-        { days: "6 to 14", peak: "$209.00", shoulder: "$195.00" },
-        { days: "2 to 5", peak: "$219.00", shoulder: "$209.00" },
-      ],
-      specs: [
-        {
-          key: "Year introduced",
-          value: "2018",
-        },
-        {
-          key: "Max power",
-          value: "76 bhp",
-        },
-        {
-          key: "Max torque",
-          value: "62 ft-lb",
-        },
-        {
-          key: "Top speed",
-          value: "135 mph",
-        },
-        {
-          key: "Engine size",
-          value: "853cc",
-        },
-        {
-          key: "Engine type",
-          value: "Liquid-cooled, 8v, parallel twin",
-        },
-        {
-          key: "Frame type",
-          value: "Steel bridge-type",
-        },
-        {
-          key: "Fuel capacity",
-          value: "15 litres",
-        },
-        {
-          key: "Seat height",
-          value: "815mm",
-        },
-        {
-          key: "Bike weight",
-          value: "224kg",
-        },
-        {
-          key: "Front suspension",
-          value: "41mm non-adjustable forks",
-        },
-        {
-          key: "Rear suspension",
-          value:
-            "Single rear shock, adjustable for preload and rebound damping",
-        },
-        {
-          key: "Front brake",
-          value: "2 x 305mm discs with Brembo four-piston caliper",
-        },
-        {
-          key: "Rear brake",
-          value: "265mm single disc with single-piston caliper",
-        },
-        {
-          key: "Front tyre size",
-          value: "110/80 x 19",
-        },
-        {
-          key: "Rear tyre size",
-          value: "150/70 x 17",
-        },
-      ],
-      descriptionHeading: "THE BEGINNING OF SOMETHING NEW.",
-      description: [
-        "The BMW F 750 GS is your ticket to adventure. With this balanced Enduro all-rounder, you can master all paths and expand your horizons. The F 750 GS gives you more power, more comfort, more spirit of GS. Feel the strong-charactered engine and enjoy the ease of handling of the F 750 GS. While you're off discovering the world, you have the bike safely under control with the Automatic Stability Control (ASC) and ABS. With the additional option Connectivity, the 6.5 inch TFT-display boasts many features including navigation and smartphone connectivity.",
-        "From the slim rear to the striking front tank right up to the typical GS 'beak', the design elements of the F 750 GS personify the GS genes. The flyline is unmistakable and original. With the view on the front, the new LED headlamps and original. From the front view, the LED headlamps are particularly striking.",
-      ],
-    },
+    // {
+    //   id: "bmwF750GS",
+    //   name: "BMW F750GS",
+    //   brief: "With Hard Luggage & Touring Screen included.",
+    //   link: "/bmw/bmw-f750-gs",
+    //   img1: img1BMWF750GS,
+    //   prices: [
+    //     { days: "15 to 21", peak: "$195.00", shoulder: "$179.00" },
+    //     { days: "6 to 14", peak: "$209.00", shoulder: "$195.00" },
+    //     { days: "2 to 5", peak: "$219.00", shoulder: "$209.00" },
+    //   ],
+    //   specs: [
+    //     {
+    //       key: "Year introduced",
+    //       value: "2018",
+    //     },
+    //     {
+    //       key: "Max power",
+    //       value: "76 bhp",
+    //     },
+    //     {
+    //       key: "Max torque",
+    //       value: "62 ft-lb",
+    //     },
+    //     {
+    //       key: "Top speed",
+    //       value: "135 mph",
+    //     },
+    //     {
+    //       key: "Engine size",
+    //       value: "853cc",
+    //     },
+    //     {
+    //       key: "Engine type",
+    //       value: "Liquid-cooled, 8v, parallel twin",
+    //     },
+    //     {
+    //       key: "Frame type",
+    //       value: "Steel bridge-type",
+    //     },
+    //     {
+    //       key: "Fuel capacity",
+    //       value: "15 litres",
+    //     },
+    //     {
+    //       key: "Seat height",
+    //       value: "815mm",
+    //     },
+    //     {
+    //       key: "Bike weight",
+    //       value: "224kg",
+    //     },
+    //     {
+    //       key: "Front suspension",
+    //       value: "41mm non-adjustable forks",
+    //     },
+    //     {
+    //       key: "Rear suspension",
+    //       value:
+    //         "Single rear shock, adjustable for preload and rebound damping",
+    //     },
+    //     {
+    //       key: "Front brake",
+    //       value: "2 x 305mm discs with Brembo four-piston caliper",
+    //     },
+    //     {
+    //       key: "Rear brake",
+    //       value: "265mm single disc with single-piston caliper",
+    //     },
+    //     {
+    //       key: "Front tyre size",
+    //       value: "110/80 x 19",
+    //     },
+    //     {
+    //       key: "Rear tyre size",
+    //       value: "150/70 x 17",
+    //     },
+    //   ],
+    //   descriptionHeading: "THE BEGINNING OF SOMETHING NEW.",
+    //   description: [
+    //     "The BMW F 750 GS is your ticket to adventure. With this balanced Enduro all-rounder, you can master all paths and expand your horizons. The F 750 GS gives you more power, more comfort, more spirit of GS. Feel the strong-charactered engine and enjoy the ease of handling of the F 750 GS. While you're off discovering the world, you have the bike safely under control with the Automatic Stability Control (ASC) and ABS. With the additional option Connectivity, the 6.5 inch TFT-display boasts many features including navigation and smartphone connectivity.",
+    //     "From the slim rear to the striking front tank right up to the typical GS 'beak', the design elements of the F 750 GS personify the GS genes. The flyline is unmistakable and original. With the view on the front, the new LED headlamps and original. From the front view, the LED headlamps are particularly striking.",
+    //   ],
+    // },
     {
       id: "bmwF700GS",
       name: "BMW F700GS",
