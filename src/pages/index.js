@@ -159,20 +159,17 @@ const IndexPage = ({ data }) => {
           <section className="section">
             <Carousel infiniteLoop centerMode showThumbs={false}>
               {tours.guided.concat(tours.selfGuided).map((tour) => (
-                <div
-                  key={tour.title}
-                  className="TourPreview__main-area columns is-vcentered"
-                >
+                <div key={tour.title} className="columns is-vcentered">
                   <div className="column is-half has-text-centered">
                     <img src={tour.img} alt="" />
                   </div>
-                  <div className="column is-half has-text-white">
+                  <div className="column is-half has-text-white mb-6">
                     <h2>{tour.title}</h2>
                     <h5>{tour.subtitle}</h5>
                     <h5>{tour.date}</h5>
                     <h5>{tour.route}</h5>
-                    <br />
-                    <p>{tour.brief}</p>
+                    <br className="is-hidden-mobile" />
+                    <p className="is-hidden-mobile">{tour.brief}</p>
                     <br />
                     <Link className="button is-primary" to={tour.url}>
                       Read More

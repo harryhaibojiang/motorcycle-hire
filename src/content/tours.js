@@ -296,7 +296,7 @@ const tours = {
       img: ThreeWeeksDeluxSelfGuidedImg,
       date: "01 May 2021 - 30 April 2022",
       route:
-        "Begins Christchurch Ends Auckland<br />– or – Begins Auckland Ends Christchurch",
+        "Begins Christchurch Ends Auckland – or – Begins Auckland Ends Christchurch",
       brief:
         "20 nights in upper level hotel and lodges. Larnach Castle dinner and breakfast. Two nights farmstay with dinners and breakfasts. Maori concert and feast, interisland ferry, Milford Sound cruise. Airport transfers. GPS, maps and tour pack included.",
       mapImg: mapMaori,
