@@ -180,17 +180,20 @@ const IndexPage = ({ data }) => {
             </Carousel>
             {/* <TourPreview tours={tours.guided.concat(tours.selfGuided)} /> */}
           </section>
-          <iframe
-            className="embed-responsive-item"
-            src="https://player.vimeo.com/video/217142552?title=0&amp;byline=0&amp;portrait=0"
-            width="100%"
-            height="560"
-            frameBorder="0"
-            scrolling="auto"
-            webkitallowfullscreen=""
-            mozallowfullscreen=""
-            allowFullScreen=""
-          ></iframe>
+          <div class="video-wrapper">
+            <iframe
+              className="embed-responsive-item"
+              src="https://player.vimeo.com/video/217142552?title=0&amp;byline=0&amp;portrait=0"
+              width="100%"
+              // height="560"
+              // height="auto"
+              frameBorder="0"
+              scrolling="auto"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </main>
     </Layout>
