@@ -22,18 +22,22 @@ const motorBrands = [
   {
     id: "bmw",
     subtitle: "BMW R1250GS, BMW R1200RTW, R1200GSW, F850GS, F700GS",
+    url: "/rental-motorcycles/?brand=BMW#motorTabs",
   },
   {
     id: "honda",
     subtitle: "Honda VT750S and Honda CMX500 Rebel",
+    url: "/rental-motorcycles/?brand=Honda#motorTabs",
   },
   {
     id: "suzuki",
     subtitle: "DL650 V-Strom, GSF1250",
+    url: "/rental-motorcycles/?brand=Suzuki#motorTabs",
   },
   {
     id: "triumph",
     subtitle: "Tiger 800",
+    url: "/rental-motorcycles/?brand=Triumph#motorTabs",
   },
 ];
 
@@ -77,7 +81,7 @@ const IndexPage = ({ data }) => {
             </div>
           </section>
           <section>
-            <Carousel infiniteLoop centerMode showThumbs={false}>
+            <Carousel autoPlay centerMode infiniteLoop showThumbs={false}>
               {motorBrands.map((brand) => (
                 <div key={brand.id}>
                   <span className="has-text-white is-uppercase has-text-weight-bold">
@@ -87,7 +91,9 @@ const IndexPage = ({ data }) => {
                     fluid={data[brand.id].childImageSharp.fluid}
                     alt={brand.id}
                   />
-                  <p className="legend">{brand.subtitle}</p>
+                  <Link to={brand.url}>
+                    <p className="legend">{brand.subtitle}</p>
+                  </Link>
                 </div>
               ))}
             </Carousel>
@@ -157,7 +163,7 @@ const IndexPage = ({ data }) => {
             </div>
           </section>
           <section className="section">
-            <Carousel infiniteLoop centerMode showThumbs={false}>
+            <Carousel autoPlay infiniteLoop showThumbs={false}>
               {tours.guided.concat(tours.selfGuided).map((tour) => (
                 <div key={tour.title} className="columns is-vcentered">
                   <div className="column is-half has-text-centered">
@@ -180,7 +186,7 @@ const IndexPage = ({ data }) => {
             </Carousel>
             {/* <TourPreview tours={tours.guided.concat(tours.selfGuided)} /> */}
           </section>
-          <div class="video-wrapper">
+          <div className="video-wrapper">
             <iframe
               className="embed-responsive-item"
               src="https://player.vimeo.com/video/217142552?title=0&amp;byline=0&amp;portrait=0"
@@ -189,9 +195,9 @@ const IndexPage = ({ data }) => {
               // height="auto"
               frameBorder="0"
               scrolling="auto"
-              webkitallowfullscreen
-              mozallowfullscreen
-              allowFullScreen
+              webkitallowfullscreen=""
+              mozallowfullscreen=""
+              allowFullScreen=""
             ></iframe>
           </div>
         </div>

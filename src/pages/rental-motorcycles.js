@@ -4,6 +4,7 @@ import MotorCard from "../components/MotorCard";
 import priceListDownload from "../images/view-full-pricelist.png";
 import { motors } from "../content/motors";
 import ListDescription from "../components/ListDescription";
+import queryString from "query-string";
 
 const listDescriptions = [
   {
@@ -77,9 +78,10 @@ const listDescriptions = [
   },
 ];
 
-export default function MotorPage({ data }) {
-  const [brand, setBrand] = useState("All");
-
+export default function MotorPage({ data, location }) {
+  const queryParams = queryString.parse(location.search);
+  const [brand, setBrand] = useState(queryParams.brand || "All");
+  console.log();
   const motorsData = () => {
     if (brand === "All") {
       return Object.keys(motors).reduce((acc, current) => {
@@ -117,11 +119,11 @@ export default function MotorPage({ data }) {
             </div>
           </div>
         </section>
-        <section className="section">
-          <div class="tabs is-centered">
+        <section className="section" id="motorTabs">
+          <div className="tabs is-centered">
             <ul>
               {["All", ...Object.keys(motors)].map((key) => (
-                <li className={key === brand ? "is-active" : ""}>
+                <li key={key} className={key === brand ? "is-active" : ""}>
                   <a onClick={() => setBrand(key)}>{key}</a>
                 </li>
               ))}
@@ -129,7 +131,7 @@ export default function MotorPage({ data }) {
           </div>
           <div className="columns is-multiline">
             {motorsData().map((motor) => (
-              <div className="column is-one-third">
+              <div key={motor.id} className="column is-one-third">
                 <MotorCard
                   img={data[motor.id].childImageSharp.fluid}
                   {...motor}
