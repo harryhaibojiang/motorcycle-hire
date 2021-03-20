@@ -23,6 +23,7 @@ export default function Footer() {
           <a
             href="https://www.facebook.com/motorcycletours.nz/"
             target="_blank"
+            rel="noopener"
           >
             <img src={facebookLike} alt="te waipounamu facebook" />
           </a>

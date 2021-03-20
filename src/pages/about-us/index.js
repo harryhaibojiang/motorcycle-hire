@@ -7,6 +7,7 @@ const AboutUs = () => {
       <main className="container mt-4">
         <div className="video-wrapper">
           <iframe
+            title="Rental Motorbikes Te Waipounamu Motorcycle Tours"
             className="embed-responsive-item"
             src="https://player.vimeo.com/video/217142798?title=0&byline=0&portrait=0"
             width="100%"

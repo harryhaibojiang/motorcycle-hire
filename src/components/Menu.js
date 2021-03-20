@@ -85,7 +85,12 @@ export default function Menu() {
       <div className="container">
         <div className="navbar-brand">
           <a className={classNames("navbar-item", styles.logo)} href="/">
-            <img src={logo} width="119" height="112" alt="" />
+            <img
+              src={logo}
+              width="119"
+              height="112"
+              alt="Te Waipounamu Motorcycle"
+            />
           </a>
           <a
             role="button"
