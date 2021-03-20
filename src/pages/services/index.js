@@ -2,7 +2,6 @@ import React from "react";
 import Img from "gatsby-image";
 import Layout from "../../components/Layout";
 import ListDescription from "../../components/ListDescription";
-import imgService2 from "../../images/service2.jpg";
 import ServiceForm from "../../components/ServiceForm";
 
 const Services = ({ data }) => {
