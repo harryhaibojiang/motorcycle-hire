@@ -2,12 +2,10 @@ import * as React from "react";
 import Layout from "../components/Layout";
 import Img from "gatsby-image";
 import bwmPartner from "../images/bmw-partner.png";
-import logoBMWPartner from "../images/logo-bmw-partner.png";
 import styles from "./index.module.scss";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import classnames from "classnames";
-import TourPreview from "../components/TourPreview";
 import tours from "../content/tours";
 import logo from "../images/logo-big.png";
 import { Link } from "gatsby";
@@ -245,24 +243,17 @@ export const query = graphql`
         }
       }
     }
-    hondaLogo: file(relativePath: { eq: "logo-honda.png" }) {
+    service: file(relativePath: { eq: "service.jpg" }) {
       childImageSharp {
-        fixed(width: 156, height: 75) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
-    suzukiLogo: file(relativePath: { eq: "logo-suzuki.png" }) {
+    service2: file(relativePath: { eq: "service2.jpg" }) {
       childImageSharp {
-        fixed(width: 156, height: 75) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    triumphLogo: file(relativePath: { eq: "logo-triumph.png" }) {
-      childImageSharp {
-        fixed(width: 156, height: 75) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }

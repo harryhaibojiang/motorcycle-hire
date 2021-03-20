@@ -62,18 +62,13 @@ const menus = [
     text: "About Us",
     url: "/about-us",
   },
-
-  {
-    text: "Book",
-    url: "/book",
-  },
   {
     text: "Contact",
     url: "/contact",
   },
 ];
 
-export default function Header() {
+export default function Menu() {
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -142,7 +137,13 @@ export default function Header() {
               )
             )}
           </div>
-          <div className="navbar-end"></div>
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <Link to="/book" className="button is-primary is-light">
+                Book
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

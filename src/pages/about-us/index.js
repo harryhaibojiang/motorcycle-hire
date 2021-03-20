@@ -1,14 +1,22 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import bannerAbout from "../../images/about-us-banner.jpg";
 
 const AboutUs = () => {
   return (
     <Layout>
-      <div className="has-text-centered">
-        <img src={bannerAbout} alt="" />
-      </div>
       <main className="container mt-4">
+        <div className="video-wrapper">
+          <iframe
+            className="embed-responsive-item"
+            src="https://player.vimeo.com/video/217142798?title=0&byline=0&portrait=0"
+            width="100%"
+            frameBorder="0"
+            scrolling="auto"
+            webkitallowfullscreen=""
+            mozallowfullscreen=""
+            allowFullScreen=""
+          ></iframe>
+        </div>
         <h1 className="has-text-centered">
           About Te Waipounamu Motorcycle Tours
         </h1>
@@ -64,17 +72,6 @@ const AboutUs = () => {
             </p>
           </div>
         </section>
-        <iframe
-          className="embed-responsive-item"
-          src="https://player.vimeo.com/video/217142798?title=0&byline=0&portrait=0"
-          width="100%"
-          height="560"
-          frameBorder="0"
-          scrolling="auto"
-          webkitallowfullscreen=""
-          mozallowfullscreen=""
-          allowFullScreen=""
-        ></iframe>
       </main>
     </Layout>
   );

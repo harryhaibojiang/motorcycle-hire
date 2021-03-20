@@ -1,11 +1,11 @@
 import React from "react";
+import Img from "gatsby-image";
 import Layout from "../../components/Layout";
 import ListDescription from "../../components/ListDescription";
-import imgService from "../../images/service.jpg";
 import imgService2 from "../../images/service2.jpg";
 import ServiceForm from "../../components/ServiceForm";
 
-const Services = () => {
+const Services = ({ data }) => {
   return (
     <Layout>
       <main className="container mt-4">
@@ -14,7 +14,7 @@ const Services = () => {
         </h1>
         <section className="section columns">
           <div className="column">
-            <img src={imgService} alt="" />
+            <Img fluid={data.service.childImageSharp.fluid} alt="" />
           </div>
           <div className="column">
             <p>
@@ -73,7 +73,7 @@ const Services = () => {
             <p>Pop in for a chat and check out how we can help.</p>
           </div>
           <div className="column">
-            <img src={imgService2} alt="" />
+            <Img fluid={data.service2.childImageSharp.fluid} alt="" />
           </div>
         </section>
         <ServiceForm />
@@ -83,3 +83,22 @@ const Services = () => {
 };
 
 export default Services;
+
+export const query = graphql`
+  query ServicePageQuery {
+    service: file(relativePath: { eq: "service.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 650) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    service2: file(relativePath: { eq: "service2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 650) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`;
