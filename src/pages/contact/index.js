@@ -13,7 +13,7 @@ const ContactUs = () => {
         <br />
         <div className="columns">
           <div className="column is-two-thirds">
-            <img src={imgNewZealand} alt="" />
+            <img src={imgNewZealand} alt="contact us" />
             <br />
             <br />
             <div className="columns">
@@ -63,7 +63,7 @@ const ContactUs = () => {
                 </p>
               </div>
             </div>
-            <img src={imgPickup} alt="" />
+            <img src={imgPickup} alt="pickup motorcycle" />
             <br />
             <br />
             <div className="columns">
@@ -100,7 +100,7 @@ const ContactUs = () => {
                 </p>
               </div>
             </div>
-            <img src={imgFlights} alt="" />
+            <img src={imgFlights} alt="flights to New Zealand" />
             <br />
             <br />
             <div className="columns">

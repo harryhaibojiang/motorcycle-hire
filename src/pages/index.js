@@ -43,12 +43,15 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <main>
-        <Img fluid={data.banner.childImageSharp.fluid} alt="" />
+        <Img
+          fluid={data.banner.childImageSharp.fluid}
+          alt="New Zealand Motorcycle Tours, Rentals and Hire NZ"
+        />
         <div className={styles.logo}>
-          <img src={logo} alt="" />
+          <img src={logo} alt="Te Waipounamu Motorcycle" />
         </div>
         <div className={styles.bmwPartner}>
-          <img src={bwmPartner} alt="" />
+          <img src={bwmPartner} alt="BMW Motorrad" />
         </div>
         <div className="container">
           <section className="section">
@@ -165,7 +168,7 @@ const IndexPage = ({ data }) => {
               {tours.guided.concat(tours.selfGuided).map((tour) => (
                 <div key={tour.title} className="columns is-vcentered">
                   <div className="column is-half has-text-centered">
-                    <img src={tour.img} alt="" />
+                    <img src={tour.img} alt={tour.title} />
                   </div>
                   <div className="column is-half has-text-white mb-6">
                     <h2>{tour.title}</h2>

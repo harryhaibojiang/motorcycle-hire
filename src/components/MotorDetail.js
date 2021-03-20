@@ -11,7 +11,7 @@ const MotorDetail = ({ motor }) => {
         <br />
         <section className="section columns">
           <div className="column">
-            <img src={motor.img1} alt="" />
+            <img src={motor.img1} alt={motor.name} />
           </div>
           <div className="column">
             <h2>{motor.name}</h2>

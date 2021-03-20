@@ -6,7 +6,7 @@ import photoToursAdditionalInfo from "../../images/tours/photo-toursadditionalin
 const ToursAdditionalInfomation = () => {
   return (
     <Layout>
-      <img src={photoBanner} alt="" />
+      <img src={photoBanner} alt="New Zealand Motorcycle Self-guided Tours" />
       <main className="container mt-4">
         <h1>Tours Additional Information</h1>
         <br />
@@ -53,7 +53,10 @@ const ToursAdditionalInfomation = () => {
             </p>
           </div>
           <div className="column">
-            <img src={photoToursAdditionalInfo} alt="" />
+            <img
+              src={photoToursAdditionalInfo}
+              alt="New Zealand Motorcycle Self-guided Tours information"
+            />
           </div>
         </div>
         <AdditionalInfoSection

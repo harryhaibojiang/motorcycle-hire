@@ -13,7 +13,10 @@ const Services = ({ data }) => {
         </h1>
         <section className="section columns">
           <div className="column">
-            <Img fluid={data.service.childImageSharp.fluid} alt="" />
+            <Img
+              fluid={data.service.childImageSharp.fluid}
+              alt="motorcyle workshop services in New Zealand"
+            />
           </div>
           <div className="column">
             <p>
@@ -72,7 +75,10 @@ const Services = ({ data }) => {
             <p>Pop in for a chat and check out how we can help.</p>
           </div>
           <div className="column">
-            <Img fluid={data.service2.childImageSharp.fluid} alt="" />
+            <Img
+              fluid={data.service2.childImageSharp.fluid}
+              alt="motorcyle services in New Zealand"
+            />
           </div>
         </section>
         <ServiceForm />

@@ -68,7 +68,10 @@ const SelfToursPage = () => {
             </p>
           </div>
           <div>
-            <img src={photoSelfGuided2} alt="" />
+            <img
+              src={photoSelfGuided2}
+              alt="New Zealand Motorcycle Self-guided Tours"
+            />
           </div>
         </section>
       </main>

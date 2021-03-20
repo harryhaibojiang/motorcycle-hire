@@ -72,7 +72,7 @@ const MoonlightTour = ({ tour }) => {
             <p>{tour.description}</p>
           </div>
           <div className="column">
-            <img src={tour.mapImg} alt="" />
+            <img src={tour.mapImg} alt={tour.title} />
           </div>
         </section>
       </main>

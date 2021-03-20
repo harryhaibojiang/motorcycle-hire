@@ -7,7 +7,7 @@ const ToursAdditionalInfomation = () => {
   return (
     <Layout>
       <main className="container mt-4">
-        <img src={photoBanner} alt="" />
+        <img src={photoBanner} alt="New Zealand Motorcycle Tours information" />
         <h1>Tours Additional Information</h1>
         <br />
         <div className="mx-4 columns">
@@ -53,7 +53,10 @@ const ToursAdditionalInfomation = () => {
             </p>
           </div>
           <div className="column">
-            <img src={photoToursAdditionalInfo} alt="" />
+            <img
+              src={photoToursAdditionalInfo}
+              alt="New Zealand Motorcycle Tours information"
+            />
           </div>
         </div>
         <AdditionalInfoSection

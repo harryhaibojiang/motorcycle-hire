@@ -114,7 +114,7 @@ export default function MotorPage({ data, location }) {
             </div>
             <div className="column">
               <a href="/pricelist.pdf" target="_blank">
-                <img src={priceListDownload} alt="" />
+                <img src={priceListDownload} alt="price download" />
               </a>
             </div>
           </div>

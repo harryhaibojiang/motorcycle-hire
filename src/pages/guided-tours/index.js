@@ -33,7 +33,7 @@ const ToursPage = () => {
   return (
     <Layout>
       <main className="container mt-4">
-        <img src={photoBanner} alt="" />
+        <img src={photoBanner} alt="New Zealand Motorcycle Tours" />
         <h1 className="has-text-centered">Fully Guided Tours</h1>
         <br />
         <div className="mx-4">
@@ -128,7 +128,7 @@ const ToursPage = () => {
                   <p>{tourStyle.description}</p>
                 </div>
                 <div>
-                  <img src={tourStyle.image} alt="" />
+                  <img src={tourStyle.image} alt={tourStyle.title} />
                 </div>
               </div>
             ))}
