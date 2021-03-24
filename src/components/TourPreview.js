@@ -20,7 +20,11 @@ export default function TourPreview({ tours }) {
       </div>
       <div className="TourPreview__main-area columns is-vcentered">
         <div className="column is-half has-text-centered">
-          <img src={activeTour.img} alt={activeTour.title} />
+          <img
+            src={activeTour.img}
+            alt={activeTour.title}
+            style={{ maxWidth: "100%" }}
+          />
         </div>
         <div className="column is-half">
           <h2>{activeTour.title}</h2>
@@ -40,6 +44,6 @@ const TourSelector = ({ title, img, showTourPreview, active }) => (
     onClick={() => showTourPreview(title)}
     className={classnames({ "is-active": active }, "TourSelector")}
   >
-    <img src={img} alt={title} />
+    <img src={img} alt={title} style={{ width: "100%" }} />
   </div>
 );
