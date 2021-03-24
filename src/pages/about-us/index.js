@@ -18,22 +18,24 @@ const AboutUs = () => {
             allowFullScreen=""
           ></iframe>
         </div>
-        <h1 className="has-text-centered">
-          About Te Waipounamu Motorcycle Tours
-        </h1>
-        <br />
-        <p>
-          Te Waipounamu Motorcycle Tours was formed in 1987 by John Rains and
-          Peter Colwell. Both had been involved in the motorcycle industry for a
-          long period of time and saw a market opportunity that was not being
-          fulfilled.
-        </p>
-        <br />
-        <p>
-          "We knew New Zealand needed something like this because it's the
-          perfect destination for a motorcycling holiday. We wanted to make the
-          whole process of hiring a motorcycle easy for the customer."
-        </p>
+        <section className="section">
+          <h1 className="has-text-centered">
+            About Te Waipounamu Motorcycle Tours
+          </h1>
+          <br />
+          <p>
+            Te Waipounamu Motorcycle Tours was formed in 1987 by John Rains and
+            Peter Colwell. Both had been involved in the motorcycle industry for
+            a long period of time and saw a market opportunity that was not
+            being fulfilled.
+          </p>
+          <br />
+          <p>
+            "We knew New Zealand needed something like this because it's the
+            perfect destination for a motorcycling holiday. We wanted to make
+            the whole process of hiring a motorcycle easy for the customer."
+          </p>
+        </section>
         <section className="section columns">
           <div className="column">
             <p>
