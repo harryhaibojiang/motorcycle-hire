@@ -65,7 +65,6 @@ const ServiceForm = () => {
             >
               <option>Please select a service</option>
               <option>$180 Service</option>
-              <option>WOF</option>
               <option>Mechanial repair</option>
               <option>Tyre replacement</option>
               <option>Motorcycle hire</option>
