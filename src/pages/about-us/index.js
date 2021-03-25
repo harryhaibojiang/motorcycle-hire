@@ -9,7 +9,7 @@ const AboutUs = () => {
           <iframe
             title="Rental Motorbikes Te Waipounamu Motorcycle Tours"
             className="embed-responsive-item"
-            src="https://player.vimeo.com/video/217142798?title=0&byline=0&portrait=0"
+            src="https://player.vimeo.com/video/217142552?title=0&byline=0&portrait=0"
             width="100%"
             frameBorder="0"
             scrolling="auto"

@@ -191,7 +191,7 @@ const IndexPage = ({ data }) => {
             <iframe
               title="Rental Motorbikes Te Waipounamu Motorcycle Tours"
               className="embed-responsive-item"
-              src="https://player.vimeo.com/video/217142552?title=0&amp;byline=0&amp;portrait=0"
+              src="https://player.vimeo.com/video/217142798?title=0&amp;byline=0&amp;portrait=0"
               width="100%"
               // height="560"
               // height="auto"
