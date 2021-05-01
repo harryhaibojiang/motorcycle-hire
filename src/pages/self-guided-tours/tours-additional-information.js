@@ -10,55 +10,6 @@ const ToursAdditionalInfomation = () => {
       <main className="container mt-4">
         <h1>Tours Additional Information</h1>
         <br />
-        <div className="mx-4 columns">
-          <div className="column">
-            <p>
-              We run freedom tours where the day to day travel options are left
-              to the discretion of the rider. You can ride with the guide or
-              take your own route to the destination each day. The choice is
-              yours!
-            </p>
-            <br />
-            <p>
-              The pace of the day, your riding companions, and the route you
-              take are entirely up to you, we don't make you ride in a line
-              formation like ducks !
-            </p>
-            <br />
-            <p>
-              Full support is provided by the guides and a luggage van carries
-              your luggage to each hotel so it is there in your room when you
-              arrive at each location daily.
-            </p>
-            <br />
-            <p>
-              The tour guide holds a relaxed group meeting each evening where
-              highlights for the following day are previewed. Information about
-              routes, scenic points of interest, cultural site and even things
-              to avoid are presented, discussed and any questions answered. This
-              briefing combined with our tour pack and maps will provide enough
-              detail for you to make constructive plans for the following day.
-              These meetings also give the opportunity for group feedback and to
-              go over the days events.... Usually this involves a fair amount of
-              bluster, denial, and hilarious tales !
-            </p>
-            <br />
-            <p>
-              Tours that Te Waipounamu Motorcycle Tours run are arranged to meet
-              all motorcyclists needs including the pillion rider. The length of
-              a day's ride has an average km distance of around 350kms, however,
-              there are plenty of options each day, so those riders who want to
-              ride long and hard can do so, and those who wish to amble along
-              taking in the sights can also feel their needs are being met
-            </p>
-          </div>
-          <div className="column">
-            <img
-              src={photoToursAdditionalInfo}
-              alt="New Zealand Motorcycle Self-guided Tours information"
-            />
-          </div>
-        </div>
         <AdditionalInfoSection
           title="Payment"
           description="20% deposit required with booking a tour to secure your position.

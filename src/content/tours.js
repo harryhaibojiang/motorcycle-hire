@@ -15,7 +15,6 @@ const selfGuidedTips = [
   "All bike accessories (tank bags, top boxes, GPS) are free for tour clients.",
   "** Hotel/Motel accommodation available if preferred or if no vacancies at Farmstay.",
   "NOTE: Tours booked with dates that fall on special events in NZ including the Xmas and New Year period will incur extra costs due to accommodation price rises over that period. There may also be a minimum stay period in some locations which can restrict our choice of accommodation.",
-  "Any tour with dates booked between and inclusive of 25th December to 4th January will incur a minimum extra fee of NZ$150 per night during this period.",
   "Deviations to our set itinerary will incur a customisation fee.",
   "Pricing in NZ dollars and includes Sales Tax.",
 ];
@@ -106,7 +105,7 @@ const tours = {
   selfGuided: [
     {
       url: "/self-guided-tours/southern-moonlight-tour",
-      title: "Southern Moonlight Tour",
+      title: "2 Weeks Southern Moonlight Tour",
       img: southernMoonlightImg,
       date: "01 May 2021 - 30 April 2022",
       route: "Christchurch - Christchurch",
@@ -145,19 +144,19 @@ const tours = {
         packages: [
           {
             type: "Single room in shoulder season",
-            price: 3991,
+            price: 3585,
           },
           {
             type: "Single room in peak season",
-            price: 4509,
+            price: 4405,
           },
           {
             type: "Double/Twin room in shoulder season",
-            price: 4776,
+            price: 3962,
           },
           {
             type: "Double/Twin room in peak season",
-            price: 5284,
+            price: 4782,
           },
         ],
         tips: selfGuidedTips,
@@ -215,19 +214,19 @@ const tours = {
         packages: [
           {
             type: "Single room in shoulder season",
-            price: 6496,
+            price: 6175,
           },
           {
             type: "Single room in peak season",
-            price: 6942,
+            price: 6975,
           },
           {
             type: "Double/Twin room in shoulder season",
-            price: 7590,
+            price: 6658,
           },
           {
             type: "Double/Twin room in peak season",
-            price: 8035,
+            price: 7446,
           },
         ],
         tips: selfGuidedTips,
@@ -272,19 +271,19 @@ const tours = {
         packages: [
           {
             type: "Single room in shoulder season",
-            price: 5444,
+            price: 5488,
           },
           {
             type: "Single room in peak season",
-            price: 6045,
+            price: 6758,
           },
           {
             type: "Double/Twin room in shoulder season",
-            price: 6316,
+            price: 5845,
           },
           {
             type: "Double/Twin room in peak season",
-            price: 6917,
+            price: 7114,
           },
         ],
         tips: selfGuidedTips,
@@ -341,19 +340,19 @@ const tours = {
         packages: [
           {
             type: "Single room in shoulder season",
-            price: 7836,
+            price: 7991,
           },
           {
             type: "Single room in peak season",
-            price: 8603,
+            price: 8788,
           },
           {
             type: "Double/Twin room in shoulder season",
-            price: 8926,
+            price: 8568,
           },
           {
             type: "Double/Twin room in peak season",
-            price: 9793,
+            price: 9366,
           },
         ],
         tips: selfGuidedTips,
