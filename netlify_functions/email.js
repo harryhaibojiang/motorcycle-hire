@@ -9,7 +9,7 @@ exports.handler = async function (event, context) {
   const body = JSON.parse(event.body);
 
   const data = {
-    from: "info@mail.auto2go.nz",
+    from: "info@motorcycle-hire.co.nz",
     to: "nzbike@motorcycle-hire.co.nz",
     subject: body.subject || "Customer enquiry",
     text: JSON.stringify(body.form, null, "\t"),
