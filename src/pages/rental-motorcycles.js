@@ -11,7 +11,7 @@ const listDescriptions = [
     title: "Included",
     lists: [
       "FREE Side Luggage for Standard Cases.",
-      "FREE Unlimited Kilometres on rentals 4 Days & over˚",
+      "FREE Unlimited Kilometres on rentals 6 Days & over.",
       "FREE Insurance - full motorcycle cover included in all prices with standard Bond.",
       "Navigation TomTom Rider 400 GPS available  NZ$10 per day (maximum NZ$120 per rental, Bond NZ$400).",
       "Bring your own GPS complete with wiring & mounts - fitting charge NZ$25 plus any hardware we need to provide.",
@@ -146,13 +146,13 @@ export default function MotorPage({ data, location }) {
             insurance
           </p>
           <p className="has-text-black has-text-weight-bold	">
-            Peak Season 1 December to 15 March{" "}
+            Peak Season 1 November to 15 March{" "}
           </p>
           <p className="has-text-black has-text-weight-bold	">
             Shoulder Season 16 March to 30 November
           </p>
         </section>
-        <section className="columns is-multiline">
+        <section className="section columns is-multiline">
           {listDescriptions.map((list) => (
             <div className="column is-half" key={list.title}>
               <ListDescription {...list} />
