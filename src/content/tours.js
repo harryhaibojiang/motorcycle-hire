@@ -9,8 +9,8 @@ import mapMaori from "../images/tours/maori-map.jpg";
 import map2WeeksDeluxe from "../images/tours/2weeks-deluxe.jpg";
 
 const selfGuidedTips = [
-  "Peak Season: 1 November to 15 March",
-  "Shoulder Season: 16 March to 30 November",
+  "Peak Season: 1 November to 31 March",
+  "Shoulder Season: 31 March to 1 November",
   "Total Tour Package Cost - Motorcycle Rental is an additional cost - please refer to the pdf price list.",
   "All bike accessories (tank bags, top boxes, GPS) are free for tour clients.",
   "** Hotel/Motel accommodation available if preferred or if no vacancies at Farmstay.",

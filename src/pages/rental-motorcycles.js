@@ -13,9 +13,9 @@ const listDescriptions = [
       "FREE Side Luggage for Standard Cases.",
       "FREE Unlimited Kilometres on rentals 6 Days & over.",
       "FREE Insurance - full motorcycle cover included in all prices with standard Bond.",
-      "Navigation TomTom Rider 400 GPS available  NZ$10 per day (maximum NZ$120 per rental, Bond NZ$400).",
+      "Navigation GPS available NZ$10 per day (maximum NZ$120 per rental, Bond NZ$400).",
       "Bring your own GPS complete with wiring & mounts - fitting charge NZ$25 plus any hardware we need to provide.",
-      "Topboxes available @ $4 per day ($40 Maximum); Note: DR650 & SV/SFV650 do not have topbox mounts.",
+      "Topboxes available @ $4 per day ($40 Maximum).",
       "Tankbags available @ $4 per day (NZ$30 Maximum).",
       "Lowering links can be fitted to the rear suspension of Tiger 800, DL650, G650GS NZ$50 fitting fee.",
       "Low Seats available for BMW models NZ$50 per hire.",
@@ -146,10 +146,10 @@ export default function MotorPage({ data, location }) {
             insurance
           </p>
           <p className="has-text-black has-text-weight-bold	">
-            Peak Season 1 November to 15 March{" "}
+            Peak Season 1 November to 31 March{" "}
           </p>
           <p className="has-text-black has-text-weight-bold	">
-            Shoulder Season 16 March to 30 November
+            Shoulder Season 31 March to 1 November
           </p>
         </section>
         <section className="section columns is-multiline">
