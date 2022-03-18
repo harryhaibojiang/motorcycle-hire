@@ -54,7 +54,6 @@ const ToursPage = () => {
                 "Mechanical backup",
                 "Guaranteed problem free riding",
                 "Free airport transfers on arrival and departure",
-                "Speciality accommodation on farm-stays",
                 "Maori Concert & hangi",
               ]}
             />

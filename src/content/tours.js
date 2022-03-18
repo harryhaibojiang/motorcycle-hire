@@ -23,11 +23,11 @@ const tours = {
   guided: [
     {
       url: "/guided-tours/tour-of-the-mountain-kings",
-      title: "Fred Rau's Tour of the Mountain Kings February",
+      title: "Fred Rau's Tour of the Mountain Kings Nov 2022",
       img: mountainKingImg,
       subtitle: "Personally Guided by Fred Rau.",
-      date: "8th - 21st Feb 2022",
-      route: "Auckland to Christchurch",
+      date: "20th NOV - 3rd Dec 2022",
+      route: "Christchurch to Christchurch",
       brief:
         "2 weeks of fabulous riding! Breathe taking scenery around and over magnificent mountains and awesome passes. Feel the freedom of riding on roads with little to no traffic in your way and experience the thrill of the NZ alpine regions. Excellent accommodation all the way, the finest diet shattering fare, and the friendliest country to ride in makes this tour the stuff dreams are made of.",
       mapImg: mapMK,
@@ -35,22 +35,23 @@ const tours = {
         {
           title: "Week 1",
           locations: [
-            "Auckland",
-            "Coromandel",
-            "Rotorua",
-            "Hawkes Bay",
-            "Wellington",
-            "Nelson",
-            "Hanmer Springs",
+            "Christchurch",
+            "Mt Cook Village",
+            "Dunedin",
+            "Te Anau",
+            "Te Anau",
+            "Queenstown",
+            "Queenstown",
           ],
         },
         {
           title: "Week 2",
           locations: [
-            "Franz Josef",
-            "Queenstown",
-            "Dunedin",
-            "Mount Cook",
+            "Fox Glacier",
+            "Hanmer Springs",
+            "Nelson",
+            "Nelson",
+            "Kaikoura",
             "Christchurch",
           ],
         },
@@ -71,16 +72,12 @@ const tours = {
           {
             type: "BMW F700GS",
             price: 12995,
-            similarModels: [
-              "BMW F800GS",
-              "Triumph Tiger 800",
-              "Suzuki GSF1250",
-              "Honda VT750",
-            ],
+            similarModels: ["Triumph Tiger 800", "Honda VT750"],
           },
           {
             type: "Suzuki DL650",
             price: 12150,
+            similarModels: ["Honda CMX500"],
           },
         ],
         extraPrices: [
@@ -95,7 +92,7 @@ const tours = {
         ],
         tips: [
           "Pricing in NZD (New Zealand Dollars)",
-          "Minimum number of participants is 6 and minimum number for 2 guides (one riding) is 12.",
+          "Minimum number of participants is 6 and minimum number for 2 guides (one riding) is 8.",
           "Tour bookings are sold as twin-share or double.",
           "Single rooms can be reserved with this additional price.",
         ],
