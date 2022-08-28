@@ -972,8 +972,7 @@ export const motors = {
     {
       id: "yamahaTracer9GT",
       name: "Yamaha Tracer 9 GT",
-      brief:
-        "With hard Side luggage included and top box available.Lowering Links can be fitted for $50 per rental.",
+      brief: "With hard Side luggage included and top box available.",
       link: "/yamaha/yamaha-tracer-9-GT",
       img1: img1YamahaTracer9GT,
       prices: [
