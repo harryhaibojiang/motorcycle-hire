@@ -9,6 +9,8 @@ import img1HondaCMX500 from "../images/motors/honda-cmx500.jpg";
 import img1SuzukiDL650 from "../images/motors/suzuki-dl650.jpg";
 import img1SuzukiGSF1250 from "../images/motors/suzuki-gsf1250.jpg";
 import img1TriumphTiger800 from "../images/motors/triumph-tiger-800.jpg";
+import img1YamahaTracer9GT from "../images/motors/img1YamahaTracer9GT.jpeg";
+import img1HondaCB500XA from "../images/motors/img1HondaCB500XA.jpg";
 
 export const motors = {
   BMW: [
@@ -127,7 +129,7 @@ export const motors = {
         },
         {
           key: "Model",
-          value: "R1200GSW Adventure",
+          value: "R1200GSW",
         },
         {
           key: "Engine Type",
@@ -421,90 +423,6 @@ export const motors = {
         "And not just on paved roads. With the BMW F 850 GS Adventure, you'll conquer new terrain, be ready for new adventures and be ready to ride – wher-ever you go. This travel enduro is made for real explorers. For people who think no destination is too far and no distance too remote. Experience the world with a companion that's so reliable, robust and powerful that it can even keep up with your curiosity. Introducing the new F 850 GS Adventure.",
       ],
     },
-    // {
-    //   id: "bmwF750GS",
-    //   name: "BMW F750GS",
-    //   brief: "With Hard Luggage & Touring Screen included.",
-    //   link: "/bmw/bmw-f750-gs",
-    //   img1: img1BMWF750GS,
-    //   prices: [
-    //     { days: "15 to 21", peak: "$195.00", shoulder: "$179.00" },
-    //     { days: "6 to 14", peak: "$209.00", shoulder: "$195.00" },
-    //     { days: "2 to 5", peak: "$219.00", shoulder: "$209.00" },
-    //   ],
-    //   specs: [
-    //     {
-    //       key: "Year introduced",
-    //       value: "2018",
-    //     },
-    //     {
-    //       key: "Max power",
-    //       value: "76 bhp",
-    //     },
-    //     {
-    //       key: "Max torque",
-    //       value: "62 ft-lb",
-    //     },
-    //     {
-    //       key: "Top speed",
-    //       value: "135 mph",
-    //     },
-    //     {
-    //       key: "Engine size",
-    //       value: "853cc",
-    //     },
-    //     {
-    //       key: "Engine type",
-    //       value: "Liquid-cooled, 8v, parallel twin",
-    //     },
-    //     {
-    //       key: "Frame type",
-    //       value: "Steel bridge-type",
-    //     },
-    //     {
-    //       key: "Fuel capacity",
-    //       value: "15 litres",
-    //     },
-    //     {
-    //       key: "Seat height",
-    //       value: "815mm",
-    //     },
-    //     {
-    //       key: "Bike weight",
-    //       value: "224kg",
-    //     },
-    //     {
-    //       key: "Front suspension",
-    //       value: "41mm non-adjustable forks",
-    //     },
-    //     {
-    //       key: "Rear suspension",
-    //       value:
-    //         "Single rear shock, adjustable for preload and rebound damping",
-    //     },
-    //     {
-    //       key: "Front brake",
-    //       value: "2 x 305mm discs with Brembo four-piston caliper",
-    //     },
-    //     {
-    //       key: "Rear brake",
-    //       value: "265mm single disc with single-piston caliper",
-    //     },
-    //     {
-    //       key: "Front tyre size",
-    //       value: "110/80 x 19",
-    //     },
-    //     {
-    //       key: "Rear tyre size",
-    //       value: "150/70 x 17",
-    //     },
-    //   ],
-    //   descriptionHeading: "THE BEGINNING OF SOMETHING NEW.",
-    //   description: [
-    //     "The BMW F 750 GS is your ticket to adventure. With this balanced Enduro all-rounder, you can master all paths and expand your horizons. The F 750 GS gives you more power, more comfort, more spirit of GS. Feel the strong-charactered engine and enjoy the ease of handling of the F 750 GS. While you're off discovering the world, you have the bike safely under control with the Automatic Stability Control (ASC) and ABS. With the additional option Connectivity, the 6.5 inch TFT-display boasts many features including navigation and smartphone connectivity.",
-    //     "From the slim rear to the striking front tank right up to the typical GS 'beak', the design elements of the F 750 GS personify the GS genes. The flyline is unmistakable and original. With the view on the front, the new LED headlamps and original. From the front view, the LED headlamps are particularly striking.",
-    //   ],
-    // },
     {
       id: "bmwF700GS",
       name: "BMW F700GS",
@@ -738,6 +656,49 @@ export const motors = {
         "A low seat with wide handlebars and an 11.2L fuel tank boasting an aviation styled fuel cap. Its tractor-style seat and aggressively positioned handlebars provide a relaxed sitting position that conveys confidence and control.",
         "From its severely sloped tank to the seat, the Rebel delivers edginess, yet gives the rider a comfortable narrow riding stance. And, the rear loop suspension and pipework says Rebel in no uncertain terms. The black-cast aluminium rear frame and tubed swingarm with the rear metal fender delivers a customised feel to the rear view.",
         "Assert yourself on the road with the blacked-out engine and narrow frame. Everything about the Rebel expresses its heritage, from the intake and exhaust valves to the valve timing. And, from low rpm’s driving a gentle growl to its high-revving roar, the thrill feels like no other. Experience the animal pulsing, heart-racing of the Rebel.",
+      ],
+    },
+    {
+      id: "hondaCB500XA",
+      name: "Honda CB500XA",
+      brief: "With hard side luggage included.",
+      link: "/honda/honda-CB500XA",
+      img1: img1HondaCB500XA,
+      prices: [
+        { days: "15 to 21", peak: "$139.00", shoulder: "$109.00" },
+        { days: "6 to 14", peak: "$159.00", shoulder: "$139.00" },
+        { days: "2 to 5", peak: "$169.00", shoulder: "$159.00" },
+      ],
+      specs: [
+        {
+          key: "Engine Type",
+          value: "Liquid-cooled DOHC parallel-twin",
+        },
+        {
+          key: "CC Rating",
+          value: "471 cc",
+        },
+        {
+          key: "Bore and Stroke",
+          value: "67mm X 66.8mm",
+        },
+        {
+          key: "Ignition",
+          value: "Full-transistorized type",
+        },
+        {
+          key: "Fuel System	",
+          value: "PGM-FI, Electronic Fuel Injection",
+        },
+        {
+          key: "Compression Ratio	",
+          value: "10.7:1",
+        },
+      ],
+      descriptionHeading: "From urban commuter to weekend explorer",
+      description: [
+        "The latest CB500X is ready for anything. Its styling is much sharper.",
+        "With a harder adventure edge, taking cues from the Africa Twin, and is complemented by longer travel suspension, high-specification single-tube shock absorber, enhanced rider ergonomics and a 19-inch front wheel. And while the CB500X’s engine maintains the 35kW peak output, it now makes 4% more power and torque between 3-7,000rpm, thanks to revisions to the inlet, exhaust and valve timing. The new dual-exit exhaust muffler features an enhanced exhaust note and the engine now also features an assist/slipper clutch. New LCD instruments include a Shift Up and Gear Position indicator, and the indicators are LED to match the rest of the lighting.",
       ],
     },
   ],
@@ -1004,6 +965,72 @@ export const motors = {
       description: [
         "Featuring a host of rider focused technology such as the standard fitment of Triumph Traction Control and ABS, the latest Tiger with its powerful and fuel efficient 95PS triple engine is up for any task.",
         "Delivering a seamless flow of torque across the rev range, the Tiger 800 is as perfectly suited to long distance rides as it is to tackling the tough stuff. The second generation 800cc engine now features a ride-by-wire throttle system which provides smoother power delivery, better response, and lower emissions. The result is a 17% improvement in fuel efficiency that coupled with the capacious 19l fuel tank means you can ride longer.",
+      ],
+    },
+  ],
+  Yamaha: [
+    {
+      id: "yamahaTracer9GT",
+      name: "Yamaha Tracer 9 GT",
+      brief:
+        "With hard Side luggage included and top box available.Lowering Links can be fitted for $50 per rental.",
+      link: "/yamaha/yamaha-tracer-9-GT",
+      img1: img1YamahaTracer9GT,
+      prices: [
+        { days: "15 to 21", peak: "$219.00", shoulder: "$199.00" },
+        { days: "6 to 14", peak: "$239.00", shoulder: "$219.00" },
+        { days: "2 to 5", peak: "$259.00", shoulder: "$239.00" },
+      ],
+      specs: [
+        {
+          key: "Engine Type",
+          value: "Liquid-cooled, 4-stroke, DOHC, 4-valve, 3-cylinder",
+        },
+        {
+          key: "Displacement (cc)",
+          value: "889cc",
+        },
+        {
+          key: "Bore x Stroke (mm)",
+          value: "78.0 x 62.1mm",
+        },
+        {
+          key: "Compression Ratio",
+          value: "11.5 : 1",
+        },
+        {
+          key: "Lubrication System",
+          value: "Wet Sump",
+        },
+        {
+          key: "Fuel Management",
+          value: "Fuel Injection",
+        },
+        {
+          key: "Ignition",
+          value: "TCI",
+        },
+        {
+          key: "Starter System",
+          value: "Electric",
+        },
+        {
+          key: "Fuel Tank Capacity (L)",
+          value: "19L",
+        },
+        {
+          key: "Final Transmission",
+          value: "Chain",
+        },
+        {
+          key: "Transmission",
+          value: "Constant mesh 6-speed",
+        },
+      ],
+      descriptionHeading: "Lighter, more powerful and supremely versatile.",
+      description: [
+        "Lighter, more powerful and supremely versatile – and now equipped with the most sophisticated technology ever seen on a Yamaha Sport Touring motorcycle – the all-new Tracer 9 GT remains true to the Sporting heart, touring soul philosophy that has made Tracer the number one bike in its class.",
+        "Equipped with an all-new 889cc CP3 engine offering increased levels of thrilling performance, electronic semi-active suspension that constantly adjusts front and rear damping force, enhanced touring capabilities with lean sensitive rider aids, Tracer GT provides ultimate sports versatility.",
       ],
     },
   ],

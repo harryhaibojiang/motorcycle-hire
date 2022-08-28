@@ -222,6 +222,13 @@ export const query = graphql`
         }
       }
     }
+    hondaCB500XA: file(relativePath: { eq: "motors/img1HondaCB500XA.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     suzukiDL650: file(relativePath: { eq: "motors/suzuki-dl650.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
@@ -238,6 +245,15 @@ export const query = graphql`
     }
     triumphTiger800: file(
       relativePath: { eq: "motors/triumph-tiger-800.jpg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    yamahaTracer9GT: file(
+      relativePath: { eq: "motors/img1YamahaTracer9GT.jpeg" }
     ) {
       childImageSharp {
         fluid(maxWidth: 500) {
