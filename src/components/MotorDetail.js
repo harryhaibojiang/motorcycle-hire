@@ -22,8 +22,8 @@ const MotorDetail = ({ motor }) => {
               <thead>
                 <tr>
                   <th>Number of days:</th>
-                  <th>Peak(1 December to 15 March):</th>
-                  <th>Shoulder(16 March to 30 November):</th>
+                  <th>Peak(1 November to 31 March):</th>
+                  <th>Shoulder(31 March to 1 November):</th>
                 </tr>
               </thead>
               <tbody>
