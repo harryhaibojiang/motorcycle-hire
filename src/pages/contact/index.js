@@ -37,9 +37,7 @@ const ContactUs = () => {
                   <p>
                     <strong>Phone:</strong> 64-3-372-3537
                     <br />
-                    <strong>Fax:</strong> 64-3-377-3211
-                    <br />
-                    <strong>Cellular:</strong> 64-274-331-534
+                    <strong>Cellular:</strong> 64-21-070-9348
                     <br />
                     <strong>E-Mail:</strong>{" "}
                     <a href="mailto:nzbike@motorcycle-hire.co.nz">
@@ -80,20 +78,12 @@ const ContactUs = () => {
                   <p>
                     <strong>Phone:</strong> 64-3-372-3537
                     <br />
-                    <strong>Fax:</strong> 64-3-377-3211
-                    <br />
-                    <strong>Cellular:</strong> 64-274-331-534
+                    <strong>Cellular:</strong> 64-21-070-9348
                   </p>
                 </div>
                 <div className="column">
                   <p>
                     <strong>Auckland</strong>
-                    <br />
-                    12D Parity Place
-                    <br />
-                    Hillcrest
-                    <br />
-                    Auckland 0627
                   </p>
                   <br />
                   <p>
