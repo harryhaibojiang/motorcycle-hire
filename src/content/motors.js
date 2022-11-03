@@ -614,7 +614,7 @@ export const motors = {
       link: "/honda/honda-cmx500",
       img1: img1HondaCMX500,
       prices: [
-        { days: "15 to 21", peak: "$139.00", shoulder: "$109.00" },
+        { days: "15 to 21", peak: "$139.00", shoulder: "$119.00" },
         { days: "6 to 14", peak: "$159.00", shoulder: "$139.00" },
         { days: "2 to 5", peak: "$169.00", shoulder: "$159.00" },
       ],
@@ -665,7 +665,7 @@ export const motors = {
       link: "/honda/honda-CB500XA",
       img1: img1HondaCB500XA,
       prices: [
-        { days: "15 to 21", peak: "$139.00", shoulder: "$109.00" },
+        { days: "15 to 21", peak: "$139.00", shoulder: "$119.00" },
         { days: "6 to 14", peak: "$159.00", shoulder: "$139.00" },
         { days: "2 to 5", peak: "$169.00", shoulder: "$159.00" },
       ],
@@ -711,7 +711,7 @@ export const motors = {
       link: "/suzuki/suzuki-dl650",
       img1: img1SuzukiDL650,
       prices: [
-        { days: "15 to 21", peak: "$139.00", shoulder: "$109.00" },
+        { days: "15 to 21", peak: "$139.00", shoulder: "$119.00" },
         { days: "6 to 14", peak: "$159.00", shoulder: "$139.00" },
         { days: "2 to 5", peak: "$169.00", shoulder: "$159.00" },
       ],
