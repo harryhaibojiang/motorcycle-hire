@@ -30,9 +30,7 @@ const listDescriptions = [
       "Long Term Hires - Hires over 22 days rates are by negotiation, please contact us for a quotation.",
       "Long Term Buy back options are available.",
       "We have Pick up/Drop off branches in Auckland and Christchurch, one way hires are Okay.",
-      "One way hires less than 14 days may incur a $399 surcharge.",
-      "Short Term Rentals  2 & 3 days have 350 kilometres per day included - Free.",
-      "Short Term Hires over 350km per day free - only additional kilometres charged @ 29c /km Category C, 39c/km Catergory B, 49c/km Category A.",
+      "One way hires less than 21 days may incur a $499 surcharge.",
     ],
   },
   {
