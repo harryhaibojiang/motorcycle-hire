@@ -22,8 +22,8 @@ export const motors = {
       link: "/bmw/bmw-r1250-gs",
       img1: img1BMWR1250GS,
       prices: [
-        { days: "15 to 21", peak: "$319.00", shoulder: "$295.00" },
-        { days: "6 to 14", peak: "$339.00", shoulder: "$315.00" },
+        { days: "15 to 21", peak: "$319.00", shoulder: "$299.00" },
+        { days: "6 to 14", peak: "$339.00", shoulder: "$319.00" },
         { days: "2 to 5", peak: "$359.00", shoulder: "$339.00" },
       ],
       specs: [
@@ -118,8 +118,8 @@ export const motors = {
       link: "/bmw/bmw-r1200-gs",
       img1: img1BMWR1200GS,
       prices: [
-        { days: "15 to 21", peak: "$259.00", shoulder: "$235.00" },
-        { days: "6 to 14", peak: "$279.00", shoulder: "$255.00" },
+        { days: "15 to 21", peak: "$259.00", shoulder: "$239.00" },
+        { days: "6 to 14", peak: "$279.00", shoulder: "$259.00" },
         { days: "2 to 5", peak: "$299.00", shoulder: "$279.00" },
       ],
       specs: [
@@ -231,8 +231,8 @@ export const motors = {
       link: "/bmw/bmw-r1200-rt",
       img1: img1BMWR1200RT,
       prices: [
-        { days: "15 to 21", peak: "$259.00", shoulder: "$235.00" },
-        { days: "6 to 14", peak: "$279.00", shoulder: "$255.00" },
+        { days: "15 to 21", peak: "$259.00", shoulder: "$239.00" },
+        { days: "6 to 14", peak: "$279.00", shoulder: "$259.00" },
         { days: "2 to 5", peak: "$299.00", shoulder: "$279.00" },
       ],
       specs: [
@@ -332,7 +332,7 @@ export const motors = {
       img1: img1BMWF850GS,
       prices: [
         { days: "15 to 21", peak: "$219.00", shoulder: "$199.00" },
-        { days: "6 to 14", peak: "$239.00", shoulder: "$225.00" },
+        { days: "6 to 14", peak: "$239.00", shoulder: "$215.00" },
         { days: "2 to 5", peak: "$259.00", shoulder: "$239.00" },
       ],
       specs: [
@@ -431,9 +431,9 @@ export const motors = {
       link: "/bmw/bmw-f700-gs",
       img1: img1BMWF700GS,
       prices: [
-        { days: "15 to 21", peak: "$175.00", shoulder: "$145.00" },
-        { days: "6 to 14", peak: "$185.00", shoulder: "$165.00" },
-        { days: "2 to 5", peak: "$195.00", shoulder: "$179.00" },
+        { days: "15 to 21", peak: "$179.00", shoulder: "$159.00" },
+        { days: "6 to 14", peak: "$189.00", shoulder: "$169.00" },
+        { days: "2 to 5", peak: "$199.00", shoulder: "$179.00" },
       ],
       specs: [
         {
@@ -520,9 +520,9 @@ export const motors = {
       link: "/honda/honda-vt750s",
       img1: img1HondaVT750S,
       prices: [
-        { days: "15 to 21", peak: "$165.00", shoulder: "$155.00" },
-        { days: "6 to 14", peak: "$175.00", shoulder: "$159.00" },
-        { days: "2 to 5", peak: "$185.00", shoulder: "$175.00" },
+        { days: "15 to 21", peak: "$169.00", shoulder: "$149.00" },
+        { days: "6 to 14", peak: "$179.00", shoulder: "$159.00" },
+        { days: "2 to 5", peak: "$189.00", shoulder: "$169.00" },
       ],
       specs: [
         {
@@ -614,8 +614,8 @@ export const motors = {
       link: "/honda/honda-cmx500",
       img1: img1HondaCMX500,
       prices: [
-        { days: "15 to 21", peak: "$139.00", shoulder: "$119.00" },
-        { days: "6 to 14", peak: "$159.00", shoulder: "$139.00" },
+        { days: "15 to 21", peak: "$149.00", shoulder: "$139.00" },
+        { days: "6 to 14", peak: "$159.00", shoulder: "$149.00" },
         { days: "2 to 5", peak: "$169.00", shoulder: "$159.00" },
       ],
       specs: [
@@ -665,8 +665,8 @@ export const motors = {
       link: "/honda/honda-CB500XA",
       img1: img1HondaCB500XA,
       prices: [
-        { days: "15 to 21", peak: "$139.00", shoulder: "$119.00" },
-        { days: "6 to 14", peak: "$159.00", shoulder: "$139.00" },
+        { days: "15 to 21", peak: "$149.00", shoulder: "$139.00" },
+        { days: "6 to 14", peak: "$159.00", shoulder: "$149.00" },
         { days: "2 to 5", peak: "$169.00", shoulder: "$159.00" },
       ],
       specs: [
@@ -711,8 +711,8 @@ export const motors = {
       link: "/suzuki/suzuki-dl650",
       img1: img1SuzukiDL650,
       prices: [
-        { days: "15 to 21", peak: "$139.00", shoulder: "$119.00" },
-        { days: "6 to 14", peak: "$159.00", shoulder: "$139.00" },
+        { days: "15 to 21", peak: "$149.00", shoulder: "$139.00" },
+        { days: "6 to 14", peak: "$159.00", shoulder: "$149.00" },
         { days: "2 to 5", peak: "$169.00", shoulder: "$159.00" },
       ],
       specs: [
@@ -774,9 +774,9 @@ export const motors = {
       link: "/suzuki/suzuki-gsf1250",
       img1: img1SuzukiGSF1250,
       prices: [
-        { days: "15 to 21", peak: "$165.00", shoulder: "$155.00" },
-        { days: "6 to 14", peak: "$175.00", shoulder: "$159.00" },
-        { days: "2 to 5", peak: "$185.00", shoulder: "$175.00" },
+        { days: "15 to 21", peak: "$169.00", shoulder: "$149.00" },
+        { days: "6 to 14", peak: "$179.00", shoulder: "$159.00" },
+        { days: "2 to 5", peak: "$189.00", shoulder: "$169.00" },
       ],
       specs: [
         {
@@ -871,9 +871,9 @@ export const motors = {
       link: "/triumph/triumph-tiger-800",
       img1: img1TriumphTiger800,
       prices: [
-        { days: "15 to 21", peak: "$185.00", shoulder: "$169.00" },
-        { days: "6 to 14", peak: "$195.00", shoulder: "$179.00" },
-        { days: "2 to 5", peak: "$209.00", shoulder: "$195.00" },
+        { days: "15 to 21", peak: "$189.00", shoulder: "$169.00" },
+        { days: "6 to 14", peak: "$199.00", shoulder: "$179.00" },
+        { days: "2 to 5", peak: "$209.00", shoulder: "$189.00" },
       ],
       specs: [
         {
@@ -971,14 +971,14 @@ export const motors = {
   Yamaha: [
     {
       id: "yamahaTracer9GT",
-      name: "Yamaha Tracer 9 GT",
+      name: "Yamaha Tracer 900",
       brief: "With hard Side luggage included and top box available.",
       link: "/yamaha/yamaha-tracer-9-GT",
       img1: img1YamahaTracer9GT,
       prices: [
-        { days: "15 to 21", peak: "$219.00", shoulder: "$199.00" },
-        { days: "6 to 14", peak: "$239.00", shoulder: "$219.00" },
-        { days: "2 to 5", peak: "$259.00", shoulder: "$239.00" },
+        { days: "15 to 21", peak: "$199.00", shoulder: "$179.00" },
+        { days: "6 to 14", peak: "$219.00", shoulder: "$199.00" },
+        { days: "2 to 5", peak: "$239.00", shoulder: "$219.00" },
       ],
       specs: [
         {

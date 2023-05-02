@@ -30,7 +30,7 @@ const listDescriptions = [
       "Long Term Hires - Hires over 22 days rates are by negotiation, please contact us for a quotation.",
       "Long Term Buy back options are available.",
       "We have Pick up/Drop off branches in Auckland and Christchurch, one way hires are Okay.",
-      "One way hires less than 21 days may incur a $499 surcharge.",
+      "One way hires less than 21 days may incur a $799 surcharge.",
     ],
   },
   {
