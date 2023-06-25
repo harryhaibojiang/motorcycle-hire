@@ -10,7 +10,7 @@ import img1HondaCMX500 from "../images/motors/honda-cmx500.jpg";
 import img1SuzukiDL650 from "../images/motors/suzuki-dl650.jpg";
 import img1SuzukiGSF1250 from "../images/motors/suzuki-gsf1250.jpg";
 import img1TriumphTiger800 from "../images/motors/triumph-tiger-800.jpg";
-import img1yamahaTracer900GT from "../images/motors/img1yamahaTracer900GT.jpeg";
+import img1YamahaTracer900GT from "../images/motors/img1YamahaTracer900GT.jpeg";
 import img1yamahaTenere700 from "../images/motors/img1yamahaTenere700.png";
 import img1HondaCB500XA from "../images/motors/img1HondaCB500XA.jpg";
 import img1HondaXL750TRASALP from "../images/motors/img1HondaXL750TRASALP.png";
@@ -1212,7 +1212,7 @@ export const motors = {
       name: "Yamaha Tracer 900 GT",
       brief: "With hard Side luggage included and top box available.",
       link: "/yamaha/yamaha-tracer-900-GT",
-      img1: img1yamahaTracer900GT,
+      img1: img1YamahaTracer900GT,
       prices: [
         { days: "15 to 21", peak: "$199.00", shoulder: "$179.00" },
         { days: "6 to 14", peak: "$219.00", shoulder: "$199.00" },
