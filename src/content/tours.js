@@ -156,7 +156,7 @@ const tours = {
       url: "/self-guided-tours/southern-moonlight-tour",
       title: "2 Weeks Southern Moonlight Tour",
       img: southernMoonlightImg,
-      date: "01 May 2021 - 30 April 2022",
+      date: "01 May 2023 - 30 April 2024",
       route: "Christchurch - Christchurch",
       brief:
         "A superb motorcycle tour that show cases the highlights of New Zealand’s South Island!",
@@ -215,7 +215,7 @@ const tours = {
       url: "/self-guided-tours/3-week-maori-discovery-tour",
       title: "3 Weeks Maori Discovery Tour",
       img: maoriDiscoveryTour,
-      date: "8th - 21st Feb 2022",
+      date: "8th - 21st Feb 2024",
       route: "Auckland to Christchurch or Christchurch - Auckland",
       brief:
         "From Cape Reinga to Bluff we take you on a journey of discovery in NZ! An affordable 3 week tour of NZ that gives you an experience of our Maori culture with an evening concert and a traditional feast on a Maori Marae in Rotorua, a ride of over 5000kms, 3 relaxing 2- night stop-over's, a spectacular Milford Sound Cruise, and a fantastic New Zealand holiday you won't forget!",
@@ -285,7 +285,7 @@ const tours = {
       url: "/self-guided-tours/2-week-deluxe-self-guided",
       title: "2 Weeks Deluxe Self Guided Tour",
       img: twoWeeksDeluxSelfGuidedImg,
-      date: "01 May 2021 - 30 April 2022",
+      date: "01 May 2023 - 30 April 2024",
       route: "Christchurch to Christchurch",
       brief:
         "A superb motorcycle tour that show cases the highlights of New Zealands South Island! 13 nights in upper level hotels and lodges. Larnach Castle dinner and breakfast. Two nights farmstay with dinners and breakfasts. Milford Sound cruise, airport transfers. GPS, maps and tour pack included.",
@@ -342,7 +342,7 @@ const tours = {
       url: "/self-guided-tours/3-week-deluxe-self-guided",
       title: "3 Weeks Deluxe Self Guided Tour",
       img: ThreeWeeksDeluxSelfGuidedImg,
-      date: "01 May 2021 - 30 April 2022",
+      date: "01 May 2023 - 30 April 2024",
       route:
         "Begins Christchurch Ends Auckland – or – Begins Auckland Ends Christchurch",
       brief:
