@@ -18,86 +18,6 @@ import img1HondaXL750TRASALP from "../images/motors/img1HondaXL750TRASALP.png";
 export const motors = {
   BMW: [
     {
-      id: "bmwR1250RT",
-      name: "BMW R1250RT",
-      brief:
-        "With Hard Luggage, Touring Screen and Heated Grips included and Topbox available.",
-      link: "/bmw/bmw-r1250-rt",
-      img1: img1BMWR1250RT,
-      prices: [
-        { days: "15 to 21", peak: "$339.00", shoulder: "$319.00" },
-        { days: "6 to 14", peak: "$359.00", shoulder: "$339.00" },
-        { days: "2 to 5", peak: "$379.00", shoulder: "$359.00" },
-      ],
-      specs: [
-        {
-          key: "Engine:",
-          value:
-            "Two-cylinder, air-/fluid-cooled, four-stroke boxer engine with two overhead spur-gear driven camshafts, one balancer shaft and BMW ShiftCam variable intake camshaft control.",
-        },
-        {
-          key: "Bore x Stroke:",
-          value: "102.5 mm x 76 mm",
-        },
-        { key: "Displacement:", value: "1,254 cc" },
-        { key: "Max. Torque:", value: "143 Nm at 6,250 rpm" },
-        { key: "Compression ratio:", value: "12.5 : 1" },
-        {
-          key: "Fuel preparation:",
-          value:
-            "Electronic intake pipe fuel injection, digital engine control: BMS-O with e-gas",
-        },
-        {
-          key: "Emission Control:",
-          value:
-            "Closed-loop three-way catalytic converter, compliant with EU-5 emission standard",
-        },
-        {
-          key: "Clutch:",
-          value:
-            "Wet clutch with an anti-hopping function, hydraulic activation",
-        },
-        {
-          key: "Gearbox:",
-          value: "	Six-speed helical synchromesh gearbox",
-        },
-        {
-          key: "Frame:",
-          value:
-            "Two-part frame concept consisting of a main frame and a rear frame bolted to it, with a co-supporting engine",
-        },
-        {
-          key: "Front Suspension/ Travel:",
-          value:
-            "BMW Motorrad Telelever, central spring strut, standard diameter 37 mm",
-        },
-        {
-          key: "Rear Suspension/ Travel:",
-          value:
-            "Cast aluminium single-sided swinging arm with BMW Motorrad Paralever, WAD spring strut, spring preload continuously and hydraulically adjustable via adjuster knob, adjustable rebound-stage damping via adjuster knob",
-        },
-        {
-          key: "Seat height, unladen",
-          value:
-            "805 mm / 825 mm (SE high seat: 830 mm / 850 mm, low seat: 760 mm / 780 mm)",
-        },
-        {
-          key: "Rider step length, unladen",
-          value:
-            "1,810 mm / 1,850 mm (SE high seat: 1,875 mm/ 1,915 mm, SE low seat: 1,740 mm / 1,780 mm)",
-        },
-        {
-          key: "Vehicle kerb weight, fully fuelled/road-ready",
-          value: "279 kg",
-        },
-      ],
-      descriptionHeading:
-        "POWERFUL MACHINE SO YOU ARRIVE RELAXED AT YOUR DESTINATION",
-      description: [
-        `The R 1250 RT is the perfect companion for your tour: its legendary BMW ShiftCam boxer engine propels you across local country roads just as powerfully as it does over winding mountain passes. Its new front end makes it look more dynamic and slimmer. Features, such as the extra-large 10.25" TFT display or Active Cruise Control (ACC) provide extra comfort on your journey. And at the end of the day, you know that there’s nothing like shared experiences and a perfect companion. A fully fledged #RideAndShare.`,
-      ],
-    },
-    {
       id: "bmwR1250",
       name: "BMW R1250GS",
       brief:
@@ -304,6 +224,86 @@ export const motors = {
       description: [
         "The BMW R 1200 GSW is a living legend. For 32 years the GS models have been molding the segment of travel enduros. They set engineering standards and have proven to be trusty companions on every riding adventure. BMW Motorrad is writing a new chapter in its story of success and taking the R 1200 GSW into a new era.",
         "Start them young with this super cool, authentically styled 6 volt electric BMW R 1200 GSW. The bike plays realistic sounds and has a maximum speed of 4km. This bike also has two supporting stabilizer wheels to keep it upright and rubber strip on the rear tyre for grip.",
+      ],
+    },
+    {
+      id: "bmwR1250RT",
+      name: "BMW R1250RT",
+      brief:
+        "With Hard Luggage, Touring Screen and Heated Grips included and Topbox available.",
+      link: "/bmw/bmw-r1250-rt",
+      img1: img1BMWR1250RT,
+      prices: [
+        { days: "15 to 21", peak: "$339.00", shoulder: "$319.00" },
+        { days: "6 to 14", peak: "$359.00", shoulder: "$339.00" },
+        { days: "2 to 5", peak: "$379.00", shoulder: "$359.00" },
+      ],
+      specs: [
+        {
+          key: "Engine:",
+          value:
+            "Two-cylinder, air-/fluid-cooled, four-stroke boxer engine with two overhead spur-gear driven camshafts, one balancer shaft and BMW ShiftCam variable intake camshaft control.",
+        },
+        {
+          key: "Bore x Stroke:",
+          value: "102.5 mm x 76 mm",
+        },
+        { key: "Displacement:", value: "1,254 cc" },
+        { key: "Max. Torque:", value: "143 Nm at 6,250 rpm" },
+        { key: "Compression ratio:", value: "12.5 : 1" },
+        {
+          key: "Fuel preparation:",
+          value:
+            "Electronic intake pipe fuel injection, digital engine control: BMS-O with e-gas",
+        },
+        {
+          key: "Emission Control:",
+          value:
+            "Closed-loop three-way catalytic converter, compliant with EU-5 emission standard",
+        },
+        {
+          key: "Clutch:",
+          value:
+            "Wet clutch with an anti-hopping function, hydraulic activation",
+        },
+        {
+          key: "Gearbox:",
+          value: "	Six-speed helical synchromesh gearbox",
+        },
+        {
+          key: "Frame:",
+          value:
+            "Two-part frame concept consisting of a main frame and a rear frame bolted to it, with a co-supporting engine",
+        },
+        {
+          key: "Front Suspension/ Travel:",
+          value:
+            "BMW Motorrad Telelever, central spring strut, standard diameter 37 mm",
+        },
+        {
+          key: "Rear Suspension/ Travel:",
+          value:
+            "Cast aluminium single-sided swinging arm with BMW Motorrad Paralever, WAD spring strut, spring preload continuously and hydraulically adjustable via adjuster knob, adjustable rebound-stage damping via adjuster knob",
+        },
+        {
+          key: "Seat height, unladen",
+          value:
+            "805 mm / 825 mm (SE high seat: 830 mm / 850 mm, low seat: 760 mm / 780 mm)",
+        },
+        {
+          key: "Rider step length, unladen",
+          value:
+            "1,810 mm / 1,850 mm (SE high seat: 1,875 mm/ 1,915 mm, SE low seat: 1,740 mm / 1,780 mm)",
+        },
+        {
+          key: "Vehicle kerb weight, fully fuelled/road-ready",
+          value: "279 kg",
+        },
+      ],
+      descriptionHeading:
+        "POWERFUL MACHINE SO YOU ARRIVE RELAXED AT YOUR DESTINATION",
+      description: [
+        `The R 1250 RT is the perfect companion for your tour: its legendary BMW ShiftCam boxer engine propels you across local country roads just as powerfully as it does over winding mountain passes. Its new front end makes it look more dynamic and slimmer. And at the end of the day, you know that there’s nothing like shared experiences and a perfect companion. A fully fledged #RideAndShare.`,
       ],
     },
     {

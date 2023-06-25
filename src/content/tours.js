@@ -92,7 +92,7 @@ const tours = {
       date: "January 26—February 21 / 2024",
       route: "Approx. 3,855 miles (6,480km)",
       brief:
-        "Join Colin Rowe to experience New Zealand as he personally guides you on this 16-day tour of the South & North Island of New Zealand, which will give you a close-up view of beautiful scenery ranging from rain forests, pasture land, white sandy beaches, rocky coast lines & rugged mountain ranges.",
+        "Join Colin Rowe to experience New Zealand as he personally guides you on this 27-day tour of the South & North Island of New Zealand, which will give you a close-up view of beautiful scenery ranging from rain forests, pasture land, white sandy beaches, rocky coast lines & rugged mountain ranges.",
       mapImg: mapSouthIslandHopper,
       plans: [],
       description:

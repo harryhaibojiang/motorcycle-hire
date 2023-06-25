@@ -102,21 +102,17 @@ const ContactUs = () => {
                     <br />
                     <strong>Lucy Nelson</strong>
                     <br />
-                    Travel One Inc
-                    <br />
-                    8009 34th Ave South
-                    <br />
-                    Bloomington, MN55425-1615
+                    DragonFly Travel
                   </p>
                   <br />
                   <p>
-                    <strong>Phone:</strong> (952) 854-2551
+                    <strong>Hours:</strong> 8:30AM to 4PM CST Mon-Fri
                     <br />
-                    <strong>Web:</strong> www.traveloneinc.com
+                    <strong>Phone:</strong> (952) 224-3393
                     <br />
                     <strong>E-Mail:</strong>{" "}
-                    <a href="mailto:lucy.nelson@traveloneinc.com">
-                      lucy.nelson@traveloneinc.com
+                    <a href="mailto:lucy@simplytravelmn.com">
+                      lucy@simplytravelmn.com
                     </a>
                     <br />
                     <br />
