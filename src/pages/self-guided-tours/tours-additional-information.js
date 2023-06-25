@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import photoBanner from "../../images/tours/fully-guided-tours.jpg";
-import photoToursAdditionalInfo from "../../images/tours/photo-toursadditionalinfo.jpg";
 
 const ToursAdditionalInfomation = () => {
   return (

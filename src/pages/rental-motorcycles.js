@@ -79,7 +79,6 @@ const listDescriptions = [
 export default function MotorPage({ data, location }) {
   const queryParams = queryString.parse(location.search);
   const [brand, setBrand] = useState(queryParams.brand || "All");
-  console.log();
   const motorsData = () => {
     if (brand === "All") {
       return Object.keys(motors).reduce((acc, current) => {
@@ -89,6 +88,7 @@ export default function MotorPage({ data, location }) {
 
     return motors[brand];
   };
+  console.log(data);
 
   return (
     <Layout>
@@ -164,6 +164,13 @@ export default function MotorPage({ data, location }) {
 
 export const query = graphql`
   query MotorsQuery {
+    bmwR1250RT: file(relativePath: { eq: "motors/bmw-r1250RT.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     bmwR1250: file(relativePath: { eq: "motors/bmw-r1250.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
@@ -192,7 +199,7 @@ export const query = graphql`
         }
       }
     }
-    bmwF750GS: file(relativePath: { eq: "motors/bmw-f750gs.jpg" }) {
+    bmwF750GS: file(relativePath: { eq: "motors/bmw-f750gs.png" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
@@ -200,6 +207,15 @@ export const query = graphql`
       }
     }
     bmwF700GS: file(relativePath: { eq: "motors/bmw-f700gs.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    hondaXL750TRASALP: file(
+      relativePath: { eq: "motors/img1HondaXL750TRASALP.png" }
+    ) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
@@ -250,8 +266,17 @@ export const query = graphql`
         }
       }
     }
-    yamahaTracer9GT: file(
-      relativePath: { eq: "motors/img1YamahaTracer9GT.jpeg" }
+    yamahaTracer900GT: file(
+      relativePath: { eq: "motors/img1YamahaTracer900GT.jpeg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    yamahaTenere700: file(
+      relativePath: { eq: "motors/img1yamahaTenere700.png" }
     ) {
       childImageSharp {
         fluid(maxWidth: 500) {

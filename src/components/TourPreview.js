@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import classnames from "classnames";
+import { Link } from "gatsby";
+import downloadIcon from "../images/download-pdf.jpeg";
 
 export default function TourPreview({ tours }) {
   const [activeId, setActiveId] = useState(tours[0].title);
@@ -27,12 +29,19 @@ export default function TourPreview({ tours }) {
           />
         </div>
         <div className="column is-half">
-          <h2>{activeTour.title}</h2>
+          <Link to={activeTour.url}>
+            <h2>{activeTour.title}</h2>
+          </Link>
+
           <h5>{activeTour.subtitle}</h5>
           <h5>{activeTour.date}</h5>
           <h5>{activeTour.route}</h5>
           <br />
           <p>{activeTour.brief}</p>
+          <br />
+          <a href={activeTour.pdf} target="_blank">
+            <img src={downloadIcon} alt="tour download" />
+          </a>
         </div>
       </div>
     </div>

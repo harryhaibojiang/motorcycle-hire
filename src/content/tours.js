@@ -1,9 +1,10 @@
-import mountainKingImg from "../images/tours/mountainKing.jpg";
+import mountainKingImg from "../images/tours/mountainKing.png";
 import maoriDiscoveryTour from "../images/tours/maoriDiscoveryTour.jpg";
 import twoWeeksDeluxSelfGuidedImg from "../images/tours/2-week-deluxe-self-guided.jpg";
 import ThreeWeeksDeluxSelfGuidedImg from "../images/tours/3-week-deluxe-self-guided.jpg";
 import southernMoonlightImg from "../images/tours/southern-moonlight-to.jpg";
-import mapMK from "../images/tours/mapMK.jpg";
+import mapMK from "../images/tours/mapMK.png";
+import mapSouthIslandHopper from "../images/tours/mapSouthIslandHopper.png";
 import mapMoonlight from "../images/tours/moonlight-map.jpg";
 import mapMaori from "../images/tours/maori-map.jpg";
 import map2WeeksDeluxe from "../images/tours/2weeks-deluxe.jpg";
@@ -22,77 +23,128 @@ const selfGuidedTips = [
 const tours = {
   guided: [
     {
-      url: "/guided-tours/tour-of-the-mountain-kings",
-      title: "Fred Rau's Tour of the Mountain Kings Nov 2022",
+      pdf: "/Island-Hopper-Trails.pdf",
+      url: "/guided-tours/Island-Hopper-Trails",
+      title: "Island Hopper Trails 16-day",
       img: mountainKingImg,
-      subtitle: "Personally Guided by Fred Rau.",
-      date: "20th NOV - 3rd Dec 2022",
-      route: "Christchurch to Christchurch",
+      subtitle: "Fully Guided tour on the South & North Islands of NZ",
+      date: "January 26 — February 10 / 2024",
+      route: "Approx. 2,410 miles (3,880 km)",
       brief:
-        "2 weeks of fabulous riding! Breathe taking scenery around and over magnificent mountains and awesome passes. Feel the freedom of riding on roads with little to no traffic in your way and experience the thrill of the NZ alpine regions. Excellent accommodation all the way, the finest diet shattering fare, and the friendliest country to ride in makes this tour the stuff dreams are made of.",
+        "Join Colin Rowe to experience New Zealand, as he personally guides you on this 16-day tour of the South & North Island of New Zealand, which will give you a close-up view of beautiful scenery ranging from rain forests, pasture land, white sandy beaches, rocky coast lines & rugged mountain ranges.",
       mapImg: mapMK,
-      plans: [
-        {
-          title: "Week 1",
-          locations: [
-            "Christchurch",
-            "Mt Cook Village",
-            "Dunedin",
-            "Te Anau",
-            "Te Anau",
-            "Queenstown",
-            "Queenstown",
-          ],
-        },
-        {
-          title: "Week 2",
-          locations: [
-            "Fox Glacier",
-            "Hanmer Springs",
-            "Nelson",
-            "Nelson",
-            "Kaikoura",
-            "Christchurch",
-          ],
-        },
-      ],
+      plans: [],
       description:
-        "Tour Includes 13 night's accommodation in deluxe quality hotels, lodges and farm stays. airport transfers, 11 dinners, 13 breakfasts, Maori cultural evening, Larnach Castle, Interisland ferry tickets. Motorcycle with unlimited kilometres, luggage van and guide on motorcycle, full insurance. Maps and full itinerary/route guide.",
+        "You will begin and end your guided tour in the city of Christchurch, where you will pick up your bike before enjoying the evening relaxing with your fellow riders. Your ride will then take you through the rugged mountains of the Southern Alps running the length of the Sth Island, before crossing the ocean between the 2 islands and riding through the rich farm land of the central North Island, visiting geothermal volcanic areas, riding along beautiful sweeping coastal roads, through old growth forests, and rugged hill country. All the while enjoying gentle sweeping corners mixed with twisty back roads.",
       price: {
         packages: [
           {
             type: "BMW 1250GS",
-            price: 14555,
+            price: 13425,
+            similarModels: ["BMW R1250RT"],
           },
           {
-            type: "BMW R1200GS",
-            price: 13995,
-            similarModels: ["BMW R1200RT", "BMW 850GS"],
+            type: "BMW R1200RT",
+            price: 12145,
+            similarModels: ["BMW R1200GS", "BMW F850GS"],
           },
           {
-            type: "BMW F700GS",
-            price: 12995,
-            similarModels: ["Triumph Tiger 800", "Honda VT750"],
+            type: "BMW F750GS",
+            price: 11185,
+            similarModels: [
+              "BMW F700GS",
+              "Yamaha Tracer 900",
+              "Suzuki GSF 1250 Bandit",
+              "Triumph Tiger 800",
+              "Honda Shadow Aero 750",
+            ],
           },
           {
-            type: "Suzuki DL650",
-            price: 12150,
-            similarModels: ["Honda CMX500"],
+            type: "Honda CMX500",
+            price: 10385,
+            similarModels: ["Honda CB500X", "Suzuki DL 650", "VSTROM"],
           },
         ],
         extraPrices: [
           {
             type: "Single Room Supplement",
-            price: 3430,
+            price: 2535,
           },
           {
-            type: "Pillion rider",
-            price: 8995,
+            type: "Passenger / Pillion rider",
+            price: 8000,
           },
         ],
         tips: [
           "Pricing in NZD (New Zealand Dollars)",
-          "Minimum number of participants is 6 and minimum number for 2 guides (one riding) is 8.",
+          "Minimum number of participants is 5.",
+          "Tour bookings are sold as twin-share or double.",
+          "Single rooms can be reserved with this additional price.",
+        ],
+      },
+    },
+    {
+      pdf: "/South-Island-Hopper.pdf",
+      url: "/guided-tours/South-Island-Hopper",
+      title: "South Island Hopper 27-day",
+      img: mountainKingImg,
+      subtitle: "Fully Guided tour on the South & North & South Islands of NZ",
+      date: "January 26—February 21 / 2024",
+      route: "Approx. 3,855 miles (6,480km)",
+      brief:
+        "Join Colin Rowe to experience New Zealand as he personally guides you on this 16-day tour of the South & North Island of New Zealand, which will give you a close-up view of beautiful scenery ranging from rain forests, pasture land, white sandy beaches, rocky coast lines & rugged mountain ranges.",
+      mapImg: mapSouthIslandHopper,
+      plans: [],
+      description:
+        "You will begin and end your guided tour in the city of Christchurch, where you will pick up your bike before enjoying the evening relaxing with your fellow riders. Your ride will then take you through the rugged mountains of the Southern Alps running the length of the Sth Island, before crossing the ocean between the 2 islands and riding through the rich farm land of the central North Island, visiting geothermal volcanic areas, riding along beautiful sweeping coastal roads, through old growth forests, and rugged hill country. All the while enjoying gentle sweeping corners mixed with twisty back roads.",
+      price: {
+        packages: [
+          {
+            type: "Tour Cat. A",
+            price: 21715,
+            similarModels: ["BMW R1250GS", "BMW R1250RT"],
+          },
+          {
+            type: "Tour Cat. B",
+            price: 19555,
+            similarModels: ["BMW R1200RT", "BMW R1200GS", "BMW F850GS"],
+          },
+          {
+            type: "Tour Cat. C",
+            price: 17935,
+            similarModels: [
+              "BMW F750GS",
+              "BMW F700GS",
+              "Yamaha Tracer 900",
+              "Suzuki GSF 1250 Bandit",
+              "Triumph Tiger 800",
+              "Honda Shadow Aero 750",
+            ],
+          },
+          {
+            type: "Tour Cat. D",
+            price: 16585,
+            similarModels: [
+              "Honda CMX500",
+              "Honda CB500X",
+              "Suzuki DL 650",
+              "VSTROM",
+            ],
+          },
+        ],
+        extraPrices: [
+          {
+            type: "Single Room Supplement",
+            price: 4395,
+          },
+          {
+            type: "Passenger / Pillion rider",
+            price: 12560,
+          },
+        ],
+        tips: [
+          "Pricing in NZD (New Zealand Dollars)",
+          "Minimum number of participants is 5.",
           "Tour bookings are sold as twin-share or double.",
           "Single rooms can be reserved with this additional price.",
         ],

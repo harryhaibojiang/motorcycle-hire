@@ -1,19 +1,102 @@
 import img1BMWR1250GS from "../images/motors/bmw-r1250-gs2.jpg";
+import img1BMWR1250RT from "../images/motors/bmw-r1250RT.png";
 import img1BMWR1200GS from "../images/motors/bmw-r1200-gs.jpg";
 import img1BMWR1200RT from "../images/motors/bmw-r1200-rt.jpg";
 import img1BMWF850GS from "../images/motors/bmw-f850gs.jpg";
-// import img1BMWF750GS from "../images/motors/bmw-f750gs.jpg";
+import img1BMWF750GS from "../images/motors/bmw-f750gs.png";
 import img1BMWF700GS from "../images/motors/bmw-f700gs.jpg";
 import img1HondaVT750S from "../images/motors/honda-vt750s.jpg";
 import img1HondaCMX500 from "../images/motors/honda-cmx500.jpg";
 import img1SuzukiDL650 from "../images/motors/suzuki-dl650.jpg";
 import img1SuzukiGSF1250 from "../images/motors/suzuki-gsf1250.jpg";
 import img1TriumphTiger800 from "../images/motors/triumph-tiger-800.jpg";
-import img1YamahaTracer9GT from "../images/motors/img1YamahaTracer9GT.jpeg";
+import img1yamahaTracer900GT from "../images/motors/img1yamahaTracer900GT.jpeg";
+import img1yamahaTenere700 from "../images/motors/img1yamahaTenere700.png";
 import img1HondaCB500XA from "../images/motors/img1HondaCB500XA.jpg";
+import img1HondaXL750TRASALP from "../images/motors/img1HondaXL750TRASALP.png";
 
 export const motors = {
   BMW: [
+    {
+      id: "bmwR1250RT",
+      name: "BMW R1250RT",
+      brief:
+        "With Hard Luggage, Touring Screen and Heated Grips included and Topbox available.",
+      link: "/bmw/bmw-r1250-rt",
+      img1: img1BMWR1250RT,
+      prices: [
+        { days: "15 to 21", peak: "$339.00", shoulder: "$319.00" },
+        { days: "6 to 14", peak: "$359.00", shoulder: "$339.00" },
+        { days: "2 to 5", peak: "$379.00", shoulder: "$359.00" },
+      ],
+      specs: [
+        {
+          key: "Engine:",
+          value:
+            "Two-cylinder, air-/fluid-cooled, four-stroke boxer engine with two overhead spur-gear driven camshafts, one balancer shaft and BMW ShiftCam variable intake camshaft control.",
+        },
+        {
+          key: "Bore x Stroke:",
+          value: "102.5 mm x 76 mm",
+        },
+        { key: "Displacement:", value: "1,254 cc" },
+        { key: "Max. Torque:", value: "143 Nm at 6,250 rpm" },
+        { key: "Compression ratio:", value: "12.5 : 1" },
+        {
+          key: "Fuel preparation:",
+          value:
+            "Electronic intake pipe fuel injection, digital engine control: BMS-O with e-gas",
+        },
+        {
+          key: "Emission Control:",
+          value:
+            "Closed-loop three-way catalytic converter, compliant with EU-5 emission standard",
+        },
+        {
+          key: "Clutch:",
+          value:
+            "Wet clutch with an anti-hopping function, hydraulic activation",
+        },
+        {
+          key: "Gearbox:",
+          value: "	Six-speed helical synchromesh gearbox",
+        },
+        {
+          key: "Frame:",
+          value:
+            "Two-part frame concept consisting of a main frame and a rear frame bolted to it, with a co-supporting engine",
+        },
+        {
+          key: "Front Suspension/ Travel:",
+          value:
+            "BMW Motorrad Telelever, central spring strut, standard diameter 37 mm",
+        },
+        {
+          key: "Rear Suspension/ Travel:",
+          value:
+            "Cast aluminium single-sided swinging arm with BMW Motorrad Paralever, WAD spring strut, spring preload continuously and hydraulically adjustable via adjuster knob, adjustable rebound-stage damping via adjuster knob",
+        },
+        {
+          key: "Seat height, unladen",
+          value:
+            "805 mm / 825 mm (SE high seat: 830 mm / 850 mm, low seat: 760 mm / 780 mm)",
+        },
+        {
+          key: "Rider step length, unladen",
+          value:
+            "1,810 mm / 1,850 mm (SE high seat: 1,875 mm/ 1,915 mm, SE low seat: 1,740 mm / 1,780 mm)",
+        },
+        {
+          key: "Vehicle kerb weight, fully fuelled/road-ready",
+          value: "279 kg",
+        },
+      ],
+      descriptionHeading:
+        "POWERFUL MACHINE SO YOU ARRIVE RELAXED AT YOUR DESTINATION",
+      description: [
+        `The R 1250 RT is the perfect companion for your tour: its legendary BMW ShiftCam boxer engine propels you across local country roads just as powerfully as it does over winding mountain passes. Its new front end makes it look more dynamic and slimmer. Features, such as the extra-large 10.25" TFT display or Active Cruise Control (ACC) provide extra comfort on your journey. And at the end of the day, you know that there’s nothing like shared experiences and a perfect companion. A fully fledged #RideAndShare.`,
+      ],
+    },
     {
       id: "bmwR1250",
       name: "BMW R1250GS",
@@ -332,7 +415,7 @@ export const motors = {
       img1: img1BMWF850GS,
       prices: [
         { days: "15 to 21", peak: "$219.00", shoulder: "$199.00" },
-        { days: "6 to 14", peak: "$239.00", shoulder: "$215.00" },
+        { days: "6 to 14", peak: "$239.00", shoulder: "$219.00" },
         { days: "2 to 5", peak: "$259.00", shoulder: "$239.00" },
       ],
       specs: [
@@ -421,6 +504,72 @@ export const motors = {
         "The unknown is exactly what tantalises you to get up, get out and go. Far, far away!",
       description: [
         "And not just on paved roads. With the BMW F 850 GS Adventure, you'll conquer new terrain, be ready for new adventures and be ready to ride – wher-ever you go. This travel enduro is made for real explorers. For people who think no destination is too far and no distance too remote. Experience the world with a companion that's so reliable, robust and powerful that it can even keep up with your curiosity. Introducing the new F 850 GS Adventure.",
+      ],
+    },
+    {
+      id: "bmwF750GS",
+      name: "BMW F750GS",
+      brief:
+        "With Hard Luggage & Touring Screen included. For the F750GS we can also offer low suspension and/or low seat.",
+      link: "/bmw/bmw-f750-gs",
+      img1: img1BMWF750GS,
+      prices: [
+        { days: "15 to 21", peak: "$199.00", shoulder: "$179.00" },
+        { days: "6 to 14", peak: "$219.00", shoulder: "$199.00" },
+        { days: "2 to 5", peak: "$239.00", shoulder: "$219.00" },
+      ],
+      specs: [
+        {
+          key: "Engine Type",
+          value:
+            "Water-cooled 4-stroke in-line two-cylinder engine, four valves per cylinder, two overhead camshafts, dry sump lubrication",
+        },
+        {
+          key: "Compression Ratio",
+          value: "12,7 : 1",
+        },
+        {
+          key: "Mixture control",
+          value: "Electronic injection",
+        },
+        {
+          key: "Bore x stroke",
+          value: "84 mm x 77 mm",
+        },
+        {
+          key: "Capacity",
+          value: "853 cc",
+        },
+        {
+          key: "Clutch",
+          value:
+            "Multiple-disc wet clutch (anti hopping), mechanically operated",
+        },
+        {
+          key: "Gearbox",
+          value: "Constant mesh 6-speed gearbox integrated in crankcase",
+        },
+        {
+          key: "Front Tire (Full Spec)",
+          value: "110/80 R19",
+        },
+        {
+          key: "Rear Tire (Full Spec)",
+          value: "150/70 R17",
+        },
+        {
+          key: "Front Brake Type",
+          value:
+            "Dual disc brake, floating brake discs, Ø 305 mm, double-piston floating calipers",
+        },
+        {
+          key: "Rear Brake Type",
+          value: "Single disc brake, Ø 265 mm, single-piston floating calipers",
+        },
+      ],
+      descriptionHeading: "YOUR TICKET TO ADVENTURE",
+      description: [
+        "Take a short break from everyday life. Expand your horizons. With the BMW F 750 GS. The adventure bike masters all routes, whatever the terrain. The comprehensive standard equipment with ABS Pro, Dynamic Traction Control (DTC) and LED indicators, as well as the optional Pro riding modes, leaves nothing to be desired. And the new “extra low” seat height as special equipment makes embarking on your next adventure easier than ever before. So climb on the F 750 GS and experience the #SpiritOfGS.",
       ],
     },
     {
@@ -513,6 +662,94 @@ export const motors = {
     },
   ],
   Honda: [
+    {
+      id: "hondaXL750TRASALP",
+      name: "Honda XL750 TRASALP",
+      brief: "With Screen & Hard side luggage available.",
+      link: "/honda/honda-xl750trasalp",
+      img1: img1HondaXL750TRASALP,
+      prices: [
+        { days: "15 to 21", peak: "$199.00", shoulder: "$179.00" },
+        { days: "6 to 14", peak: "$219.00", shoulder: "$199.00" },
+        { days: "2 to 5", peak: "$239.00", shoulder: "$219.00" },
+      ],
+      specs: [
+        {
+          key: "Engine Type",
+          value: "OHC (Uni-cam) liquid-cooled 4-stroke",
+        },
+        {
+          key: "CC Rating",
+          value: "755cc",
+        },
+        {
+          key: "Bore and Stroke",
+          value: "87.0x63.5mm",
+        },
+        {
+          key: "Ignition",
+          value: "Fully transistorized",
+        },
+        {
+          key: "Compression Ratio",
+          value: "11:1",
+        },
+        {
+          key: "Suspension Front",
+          value: "43mm inverted telescopic fork",
+        },
+        {
+          key: "Suspension Rear",
+          value: "Single shock swing arm (ProLink)",
+        },
+        {
+          key: "Brakes Front",
+          value: "2x 310mm discs, ABS",
+        },
+        {
+          key: "Brakes Rear",
+          value: "1x 256mm disc, ABS",
+        },
+        {
+          key: "Tyres Front",
+          value: "90/90-21",
+        },
+        {
+          key: "Tyres Rear",
+          value: "150/80-R18",
+        },
+        {
+          key: "Wheelbase",
+          value: "1561mm",
+        },
+        {
+          key: "Seat Height",
+          value: "850mm",
+        },
+        {
+          key: "GroundClearance",
+          value: "212mm",
+        },
+        {
+          key: "Trail",
+          value: "110.6mm",
+        },
+        {
+          key: "Kerb Weight",
+          value: "208kg",
+        },
+        {
+          key: "Dimensions",
+          value: "2317mm (L) x 840mm (W) x 1452mm (H)",
+        },
+      ],
+      descriptionHeading:
+        "The mountains are calling. An all-round legend of adventure touring is reborn.",
+      description: [
+        "With class-leading power and torque, in a chassis that delivers light on-road handling plus off-road control. A fairing and screen built for aerodynamics and wind protection, with the optimal riding position for all-day touring comfort. The new XL750 Transalp asks only one question. How far do you want to go?",
+        "Sure, the headline figures grab attention. 67.5kW power and 75Nm torque are strong numbers. But it’s the way the all-new, 755cc 8-valve parallel twin-cylinder engine delivers where you’ll really notice. Our Air vortex intake technology amplifies and smooths low- and mid-range response, while the cylinders use high-specification Ni-SiC plating to reduce friction – and increase power – at high rpm. So, on a dirt track, around town or out on the open road, two-up and fully loaded, this engine is tuned for the versatile performance you need.",
+      ],
+    },
     {
       id: "hondaVT750S",
       name: "Honda VT750S",
@@ -661,7 +898,8 @@ export const motors = {
     {
       id: "hondaCB500XA",
       name: "Honda CB500XA",
-      brief: "With hard side luggage included.",
+      brief:
+        "With hard side luggage included, topbox option available. Perfect for Solo Riders Only",
       link: "/honda/honda-CB500XA",
       img1: img1HondaCB500XA,
       prices: [
@@ -970,11 +1208,11 @@ export const motors = {
   ],
   Yamaha: [
     {
-      id: "yamahaTracer9GT",
-      name: "Yamaha Tracer 900",
+      id: "yamahaTracer900GT",
+      name: "Yamaha Tracer 900 GT",
       brief: "With hard Side luggage included and top box available.",
-      link: "/yamaha/yamaha-tracer-9-GT",
-      img1: img1YamahaTracer9GT,
+      link: "/yamaha/yamaha-tracer-900-GT",
+      img1: img1yamahaTracer900GT,
       prices: [
         { days: "15 to 21", peak: "$199.00", shoulder: "$179.00" },
         { days: "6 to 14", peak: "$219.00", shoulder: "$199.00" },
@@ -987,11 +1225,11 @@ export const motors = {
         },
         {
           key: "Displacement (cc)",
-          value: "889cc",
+          value: "847cc",
         },
         {
           key: "Bore x Stroke (mm)",
-          value: "78.0 x 62.1mm",
+          value: "78.0 x 59.1mm",
         },
         {
           key: "Compression Ratio",
@@ -1015,7 +1253,7 @@ export const motors = {
         },
         {
           key: "Fuel Tank Capacity (L)",
-          value: "19L",
+          value: "18L",
         },
         {
           key: "Final Transmission",
@@ -1025,11 +1263,110 @@ export const motors = {
           key: "Transmission",
           value: "Constant mesh 6-speed",
         },
+        {
+          key: "Brakes",
+          value: "ABS Braking System",
+        },
+        {
+          key: "Seat Height",
+          value: "850 or 865mm (Top Setting)",
+        },
+        {
+          key: "Kerb Weight",
+          value: "227Kg (Including Panniers)",
+        },
       ],
-      descriptionHeading: "Lighter, more powerful and supremely versatile.",
+      descriptionHeading:
+        "A True Mid Weight Sports Tourer – Versatile Nimble and Torquey",
       description: [
-        "Lighter, more powerful and supremely versatile – and now equipped with the most sophisticated technology ever seen on a Yamaha Sport Touring motorcycle – the all-new Tracer 9 GT remains true to the Sporting heart, touring soul philosophy that has made Tracer the number one bike in its class.",
-        "Equipped with an all-new 889cc CP3 engine offering increased levels of thrilling performance, electronic semi-active suspension that constantly adjusts front and rear damping force, enhanced touring capabilities with lean sensitive rider aids, Tracer GT provides ultimate sports versatility.",
+        "Powered by the 847cc Triple CP3 (Cross Plan Concept) Sport Bike Engine Combined with Yamaha’s Diamond Frame",
+        `KYB Forks - KYB Mono Rear Shock - Remote Adjustable
+        Heated Grips and Hand Guards
+        TFT Screen
+        3 x Tune Modes Yamaha D-Mode
+        Slipper Clutch with Quick Up Shifter
+        Cruise Control
+        
+        Traction Control (3 settings)
+        Adjustable Height Screen and Riders Seat
+        Integrated Panniers 22L (Plus 40LTop Box Option)
+        Make for comfort based Touring with an Energetic Sporting Edge taking you
+        anywhere in any conditions`,
+      ],
+    },
+    {
+      id: "yamahaTenere700",
+      name: "Yamaha Tenere 700",
+      brief: "With hard Side luggage included and top box available.",
+      link: "/yamaha/yamaha-tenere-700",
+      img1: img1yamahaTenere700,
+      prices: [
+        { days: "15 to 21", peak: "$199.00", shoulder: "$179.00" },
+        { days: "6 to 14", peak: "$219.00", shoulder: "$199.00" },
+        { days: "2 to 5", peak: "$239.00", shoulder: "$219.00" },
+      ],
+      specs: [
+        {
+          key: "Engine Type",
+          value: "Liquid-cooled, 4-stroke, DOHC, 4 valve, 2-cylinder",
+        },
+        {
+          key: "Displacement (cc)",
+          value: "689.0",
+        },
+        {
+          key: "Bore x Stroke (mm)",
+          value: "80.0 x 68.6",
+        },
+        {
+          key: "Compression Ratio",
+          value: "11.5 : 1",
+        },
+        {
+          key: "Lubrication System",
+          value: "Wet Sump",
+        },
+        {
+          key: "Fuel Management",
+          value: "Fuel Injection",
+        },
+        {
+          key: "Ignition",
+          value: "TCI",
+        },
+        {
+          key: "Starter System",
+          value: "Electric",
+        },
+        {
+          key: "Fuel Tank Capacity (L)",
+          value: "16L",
+        },
+        {
+          key: "Final Transmission",
+          value: "Chain",
+        },
+        {
+          key: "Transmission",
+          value: "Constant mesh 6-speed",
+        },
+        {
+          key: "Brakes",
+          value: "ABS Braking System",
+        },
+        {
+          key: "Seat Height",
+          value: "880",
+        },
+        {
+          key: "Kerb Weight",
+          value: "206kg",
+        },
+      ],
+      descriptionHeading:
+        "Ténéré 700 is a versatile, no compromise adventure bike ideally suited to Australia’s harsh conditions.",
+      description: [
+        `Equipped with Yamaha’s successful CP2 689cc parallel-twin engine, a tough chassis and plush KYB suspension, the Ténéré 700 is designed to deliver class-leading handling and agility in the dirt - combined with high speed long distance performance on the road. A tough, no nonsense machine that’s capable of taking on the most challenging adventures. `,
       ],
     },
   ],

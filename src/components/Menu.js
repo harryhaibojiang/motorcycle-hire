@@ -19,8 +19,12 @@ const menus = [
     url: "/guided-tours",
     subMenus: [
       {
-        text: "Fred Rau's Tour of the Mountain Kings",
-        url: "/guided-tours/tour-of-the-mountain-kings",
+        text: "Island Hopper Trail 16-day",
+        url: "/guided-tours/Island-Hopper-Trails",
+      },
+      {
+        text: "South Island Hopper 27-day",
+        url: "/guided-tours/South-Island-Hopper",
       },
       {
         text: "Fully Guided Tour Booking Form",
