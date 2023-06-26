@@ -847,7 +847,8 @@ export const motors = {
     {
       id: "hondaCMX500",
       name: "Honda CMX500 Rebel",
-      brief: "With hard side luggage included.",
+      brief:
+        "With soft side luggage included, topbox option available. Perfect for Solo Riders Only",
       link: "/honda/honda-cmx500",
       img1: img1HondaCMX500,
       prices: [
@@ -1364,7 +1365,7 @@ export const motors = {
         },
       ],
       descriptionHeading:
-        "Ténéré 700 is a versatile, no compromise adventure bike ideally suited to Australia’s harsh conditions.",
+        "Ténéré 700 is a versatile, no compromise adventure bike ideally suited to New Zealand’s harsh conditions.",
       description: [
         `Equipped with Yamaha’s successful CP2 689cc parallel-twin engine, a tough chassis and plush KYB suspension, the Ténéré 700 is designed to deliver class-leading handling and agility in the dirt - combined with high speed long distance performance on the road. A tough, no nonsense machine that’s capable of taking on the most challenging adventures. `,
       ],
