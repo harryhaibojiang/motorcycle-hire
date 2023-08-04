@@ -79,6 +79,7 @@ const BookingForm = () => {
               {motors.BMW.concat(motors.Honda)
                 .concat(motors.Suzuki)
                 .concat(motors.Triumph)
+                .concat(motors.Yamaha)
                 .map((motor) => (
                   <option>{motor.name}</option>
                 ))}

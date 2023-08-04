@@ -39,9 +39,11 @@ export default function TourPreview({ tours }) {
           <br />
           <p>{activeTour.brief}</p>
           <br />
-          <a href={activeTour.pdf} target="_blank">
-            <img src={downloadIcon} alt="tour download" />
-          </a>
+          {activeTour.pdf && (
+            <a href={activeTour.pdf} target="_blank">
+              <img src={downloadIcon} alt="tour download" />
+            </a>
+          )}
         </div>
       </div>
     </div>
