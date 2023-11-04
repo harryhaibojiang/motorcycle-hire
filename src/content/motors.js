@@ -223,7 +223,6 @@ export const motors = {
         "Unique, dynamic, and superior – these are also the hallmarks of the design presented by the new R 1200 GSW.",
       description: [
         "The BMW R 1200 GSW is a living legend. For 32 years the GS models have been molding the segment of travel enduros. They set engineering standards and have proven to be trusty companions on every riding adventure. BMW Motorrad is writing a new chapter in its story of success and taking the R 1200 GSW into a new era.",
-        "Start them young with this super cool, authentically styled 6 volt electric BMW R 1200 GSW. The bike plays realistic sounds and has a maximum speed of 4km. This bike also has two supporting stabilizer wheels to keep it upright and rubber strip on the rear tyre for grip.",
       ],
     },
     {
