@@ -41,11 +41,11 @@ const menus = [
     url: "/self-guided-tours",
     subMenus: [
       {
-        text: tours.selfGuided[2].title,
+        text: tours.selfGuided[0].title,
         url: "/self-guided-tours/2-week-deluxe-self-guided",
       },
       {
-        text: tours.selfGuided[3].title,
+        text: tours.selfGuided[1].title,
         url: "/self-guided-tours/3-week-deluxe-self-guided",
       },
       {
