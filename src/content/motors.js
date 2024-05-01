@@ -1,4 +1,5 @@
-import img1BMWR1250GS from "../images/motors/bmw-r1250-gs2.jpg";
+import img1BMWR1300GS from "../images/motors/bmw-r1300gs.jpg";
+import img1BMWR1250GS from "../images/motors/bmw-r1250gs.jpg";
 import img1BMWR1250RT from "../images/motors/bmw-r1250RT.png";
 import img1BMWR1200GS from "../images/motors/bmw-r1200-gs.jpg";
 import img1BMWR1200RT from "../images/motors/bmw-r1200-rt.jpg";
@@ -17,6 +18,129 @@ import img1HondaXL750TRASALP from "../images/motors/img1HondaXL750TRASALP.png";
 
 export const motors = {
   BMW: [
+    {
+      id: "bmwR1300GS",
+      name: "BMW R1300GS",
+      brief:
+        "The BMW R1300GS embodies the pure essence of the GS spirit. Its relatively low weight, combined with the powerful 145 hp boxer and generous 1300 ccm displacement makes it our best in the large touring enduro segment.",
+      link: "/bmw/bmw-r1300-gs",
+      img1: img1BMWR1300GS,
+      prices: [
+        {
+          days: "15 to 21",
+          peak: "$319.00",
+          shoulder: "$299.00",
+        },
+        {
+          days: "6 to 14",
+          peak: "$339.00",
+          shoulder: "$319.00",
+        },
+        {
+          days: "2 to 5",
+          peak: "$359.00",
+          shoulder: "$339.00",
+        },
+      ],
+      specs: [
+        {
+          key: "Engine:",
+          value:
+            "Air/liquid-cooled four-stroke flat twin engine with double overhead and chain driven camshafts (BMW ShiftCam)",
+        },
+        {
+          key: "Bore x Stroke:",
+          value: "106.5 mm x 73 mm",
+        },
+        {
+          key: "Displacement:",
+          value: "1,300 cc",
+        },
+        {
+          key: "Rated Output:",
+          value: "145 hp at 7,750 rpm",
+        },
+        {
+          key: "Max. Torque:",
+          value: "110 lb-ft at 6,500 rpm",
+        },
+        {
+          key: "Compression ratio:",
+          value: "13.3 : 1",
+        },
+        {
+          key: "Mixture Control / Engine Management:",
+          value: "Electronic intake pipe injection",
+        },
+        {
+          key: "Emission Control:",
+          value: "Closed-loop 3-way catalytic converter",
+        },
+        {
+          key: "Clutch:",
+          value: "Wet clutch, slipper clutch, hydraulically operated",
+        },
+        {
+          key: "Gearbox:",
+          value: "Claw-shifted 6-speed gearbox",
+        },
+        {
+          key: "Drive:",
+          value: "Cardan shaft drive",
+        },
+        {
+          key: "Frame:",
+          value:
+            "Two-part frame consisting of main frame, bolted rear frame, and load-bearing engine",
+        },
+        {
+          key: "Front Suspension/ Travel:",
+          value:
+            "BMW Motorrad EVO-Telelever, handlebar tilting decoupled via flex element, central shock absorber",
+        },
+        {
+          key: "Rear Suspension/ Travel:",
+          value:
+            "BMW Motorrad EVO-Paralever, cast aluminum single-sided swingarm, transversal connected swingarm bearings, central WAD spring strut, spring preload fully adjustable",
+        },
+        {
+          key: "Suspension Travel Front / Rear:",
+          value: '7.5" / 7.9"',
+        },
+        {
+          key: "Castor:",
+          value: '4.4"',
+        },
+        {
+          key: "Steering Head Angle:",
+          value: "63.8°",
+        },
+        {
+          key: "Wheels:",
+          value: "Aluminum cast wheels",
+        },
+        {
+          key: "Rim, Front:",
+          value: '3.00 x 19"',
+        },
+        {
+          key: "Rim, Rear:",
+          value: '4.50 x 17"',
+        },
+        {
+          key: "Tire, Front:",
+          value: "120/70 R19",
+        },
+        {
+          key: "Tire, Rear:",
+          value: "170/60 R17",
+        },
+      ],
+      descriptionHeading: "THE PACESETTER #SPIRITOFGS",
+      description: [
+        "The BMW R 1300 GS is the big, versatile touring enduro from BMW Motorrad that wins riders over with its masterful handling. Despite its low complexity, it has more comprehensive standard equipment than ever before.",
+      ],
+    },
     {
       id: "bmwR1250",
       name: "BMW R1250GS",

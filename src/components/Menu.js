@@ -41,14 +41,6 @@ const menus = [
     url: "/self-guided-tours",
     subMenus: [
       {
-        text: tours.selfGuided[0].title,
-        url: "/self-guided-tours/southern-moonlight-tour",
-      },
-      {
-        text: tours.selfGuided[1].title,
-        url: "/self-guided-tours/3-week-maori-discovery-tour",
-      },
-      {
         text: tours.selfGuided[2].title,
         url: "/self-guided-tours/2-week-deluxe-self-guided",
       },
