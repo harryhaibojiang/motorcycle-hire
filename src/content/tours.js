@@ -23,34 +23,35 @@ const selfGuidedTips = [
 const tours = {
   guided: [
     {
-      pdf: "/Island-Hopper-Trails.pdf",
+      pdf: "/18-day Kiwi Trails. North Island Loop.pdf",
       url: "/guided-tours/Island-Hopper-Trails",
-      title: "Island Hopper Trails 16-day",
+      title: "Kiwi Trails 18-days",
       img: mountainKingImg,
-      subtitle: "Fully Guided tour on the South & North Islands of NZ",
-      date: "January 26 — February 10 / 2024",
-      route: "Approx. 2,410 miles (3,880 km)",
+      subtitle: "Fully Guided tour on the North Island of NZ",
+      date: "February 5—February 22 / 2025",
+      route:
+        "Approx. 2,615 miles (4,210km), Minimum number of participants is 5",
       brief:
-        "Join Colin Rowe to experience New Zealand, as he personally guides you on this 16-day tour of the South & North Island of New Zealand, which will give you a close-up view of beautiful scenery ranging from rain forests, pasture land, white sandy beaches, rocky coast lines & rugged mountain ranges.",
+        "Join PMT company founder Colin Rowe to experience New Zealand, as he personally guides you on this 18-day tour, which gives you a close-up view of beautiful scenery ranging from rolling pastures to white sandy beaches to rugged mountains.",
       mapImg: mapMK,
       plans: [],
       description:
-        "You will begin and end your guided tour in the city of Christchurch, where you will pick up your bike before enjoying the evening relaxing with your fellow riders. Your ride will then take you through the rugged mountains of the Southern Alps running the length of the Sth Island, before crossing the ocean between the 2 islands and riding through the rich farm land of the central North Island, visiting geothermal volcanic areas, riding along beautiful sweeping coastal roads, through old growth forests, and rugged hill country. All the while enjoying gentle sweeping corners mixed with twisty back roads.",
+        "You will experience riding through old growth sub-tropical forests, along sweeping costal roads, through rugged hill country, and lush pasture lands, while enjoying gentle sweeping corners mixed with twisty back roads.",
       price: {
         packages: [
           {
             type: "BMW 1250GS",
-            price: 13425,
+            price: 15975,
             similarModels: ["BMW R1250RT"],
           },
           {
             type: "BMW R1200RT",
-            price: 12145,
+            price: 14400,
             similarModels: ["BMW R1200GS", "BMW F850GS"],
           },
           {
             type: "BMW F750GS",
-            price: 11185,
+            price: 13220,
             similarModels: [
               "BMW F700GS",
               "Yamaha Tracer 900",
@@ -61,18 +62,18 @@ const tours = {
           },
           {
             type: "Honda CMX500",
-            price: 10385,
+            price: 12240,
             similarModels: ["Honda CB500X", "Suzuki DL 650", "VSTROM"],
           },
         ],
         extraPrices: [
           {
             type: "Single Room Supplement",
-            price: 2535,
+            price: 2565,
           },
           {
             type: "Passenger / Pillion rider",
-            price: 8000,
+            price: 9035,
           },
         ],
         tips: [
@@ -84,34 +85,38 @@ const tours = {
       },
     },
     {
-      pdf: "/South-Island-Hopper.pdf",
+      pdf: "/18-day FG South Island Motorcycle Tour.pdf",
       url: "/guided-tours/South-Island-Hopper",
-      title: "South Island Hopper 27-day",
+      title: "18-day South Island Motorcycle Tour",
       img: mountainKingImg,
-      subtitle: "Fully Guided tour on the South & North & South Islands of NZ",
-      date: "January 26—February 21 / 2024",
-      route: "Approx. 3,855 miles (6,480km)",
+      subtitle: "Fully Guided tour on the South Island of NZ",
+      date: "January 15 to February 1 / 2025",
+      route:
+        "Approx. 2,605 miles (4,205km), Minimum number of participants is 5",
       brief:
-        "Join Colin Rowe to experience New Zealand as he personally guides you on this 27-day tour of the South & North Island of New Zealand, which will give you a close-up view of beautiful scenery ranging from rain forests, pasture land, white sandy beaches, rocky coast lines & rugged mountain ranges.",
+        "Join PMT company founder Colin Rowe to experience New Zealand, as he personally guides you on this 18-day tour, where you will enjoy riding through this incredibly diverse land with beautiful views ranging from rain forests, pasture lands, and white sandy beaches to mountain ranges and twisty coastlines.",
       mapImg: mapSouthIslandHopper,
       plans: [],
-      description:
-        "You will begin and end your guided tour in the city of Christchurch, where you will pick up your bike before enjoying the evening relaxing with your fellow riders. Your ride will then take you through the rugged mountains of the Southern Alps running the length of the Sth Island, before crossing the ocean between the 2 islands and riding through the rich farm land of the central North Island, visiting geothermal volcanic areas, riding along beautiful sweeping coastal roads, through old growth forests, and rugged hill country. All the while enjoying gentle sweeping corners mixed with twisty back roads.",
+      description: `You will begin and end your guided tour in the city of Christchurch, where you will pick up
+        your bike before enjoying the evening relaxing with your fellow riders. Your ride will then take
+        you across the island through the rugged Southern Alps, along beautiful coastal roads, through
+        old growth forests and rugged hill country, all while enjoying gentle sweeping corners and
+        twisty back roads.`,
       price: {
         packages: [
           {
             type: "Tour Cat. A",
-            price: 21715,
+            price: 15535,
             similarModels: ["BMW R1250GS", "BMW R1250RT"],
           },
           {
             type: "Tour Cat. B",
-            price: 19555,
+            price: 13960,
             similarModels: ["BMW R1200RT", "BMW R1200GS", "BMW F850GS"],
           },
           {
             type: "Tour Cat. C",
-            price: 17935,
+            price: 12780,
             similarModels: [
               "BMW F750GS",
               "BMW F700GS",
@@ -123,7 +128,7 @@ const tours = {
           },
           {
             type: "Tour Cat. D",
-            price: 16585,
+            price: 11800,
             similarModels: [
               "Honda CMX500",
               "Honda CB500X",
@@ -135,11 +140,11 @@ const tours = {
         extraPrices: [
           {
             type: "Single Room Supplement",
-            price: 4395,
+            price: 3070,
           },
           {
             type: "Passenger / Pillion rider",
-            price: 12560,
+            price: 8595,
           },
         ],
         tips: [

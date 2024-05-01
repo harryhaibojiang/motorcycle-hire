@@ -28,18 +28,18 @@ export const motors = {
       prices: [
         {
           days: "15 to 21",
-          peak: "$319.00",
-          shoulder: "$299.00",
+          peak: "$359.00",
+          shoulder: "$339.00",
         },
         {
           days: "6 to 14",
-          peak: "$339.00",
-          shoulder: "$319.00",
+          peak: "$389.00",
+          shoulder: "$369.00",
         },
         {
           days: "2 to 5",
-          peak: "$359.00",
-          shoulder: "$339.00",
+          peak: "$419.00",
+          shoulder: "$399.00",
         },
       ],
       specs: [
