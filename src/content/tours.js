@@ -1,11 +1,8 @@
 import mountainKingImg from "../images/tours/mountainKing.png";
-import maoriDiscoveryTour from "../images/tours/maoriDiscoveryTour.jpg";
 import twoWeeksDeluxSelfGuidedImg from "../images/tours/2-week-deluxe-self-guided.jpg";
 import ThreeWeeksDeluxSelfGuidedImg from "../images/tours/3-week-deluxe-self-guided.jpg";
-import southernMoonlightImg from "../images/tours/southern-moonlight-to.jpg";
 import mapMK from "../images/tours/mapMK.png";
 import mapSouthIslandHopper from "../images/tours/mapSouthIslandHopper.png";
-import mapMoonlight from "../images/tours/moonlight-map.jpg";
 import mapMaori from "../images/tours/maori-map.jpg";
 import map2WeeksDeluxe from "../images/tours/2weeks-deluxe.jpg";
 
