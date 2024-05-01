@@ -19,11 +19,11 @@ const menus = [
     url: "/guided-tours",
     subMenus: [
       {
-        text: "Island Hopper Trail 16-day",
+        text: "Kiwi Trails 18-day",
         url: "/guided-tours/Island-Hopper-Trails",
       },
       {
-        text: "South Island Hopper 27-day",
+        text: "South Island Hopper 18-day",
         url: "/guided-tours/South-Island-Hopper",
       },
       {
