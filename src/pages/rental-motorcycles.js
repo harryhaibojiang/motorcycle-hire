@@ -164,6 +164,13 @@ export default function MotorPage({ data, location }) {
 
 export const query = graphql`
   query MotorsQuery {
+    bmwR1300GS: file(relativePath: { eq: "motors/bmw-r1300gs.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     bmwR1250RT: file(relativePath: { eq: "motors/bmw-r1250RT.png" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
@@ -206,13 +213,6 @@ export const query = graphql`
         }
       }
     }
-    bmwF700GS: file(relativePath: { eq: "motors/bmw-f700gs.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
     hondaXL750TRASALP: file(
       relativePath: { eq: "motors/img1HondaXL750TRASALP.png" }
     ) {
@@ -244,13 +244,6 @@ export const query = graphql`
       }
     }
     suzukiDL650: file(relativePath: { eq: "motors/suzuki-dl650.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    suzukiGSF1250: file(relativePath: { eq: "motors/suzuki-gsf1250.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid

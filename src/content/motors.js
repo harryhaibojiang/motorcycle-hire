@@ -5,11 +5,9 @@ import img1BMWR1200GS from "../images/motors/bmw-r1200-gs.jpg";
 import img1BMWR1200RT from "../images/motors/bmw-r1200-rt.jpg";
 import img1BMWF850GS from "../images/motors/bmw-f850gs.jpg";
 import img1BMWF750GS from "../images/motors/bmw-f750gs.png";
-import img1BMWF700GS from "../images/motors/bmw-f700gs.jpg";
 import img1HondaVT750S from "../images/motors/honda-vt750s.jpg";
 import img1HondaCMX500 from "../images/motors/honda-cmx500.jpg";
 import img1SuzukiDL650 from "../images/motors/suzuki-dl650.jpg";
-import img1SuzukiGSF1250 from "../images/motors/suzuki-gsf1250.jpg";
 import img1TriumphTiger800 from "../images/motors/triumph-tiger-800.jpg";
 import img1YamahaTracer900GT from "../images/motors/img1YamahaTracer900GT.jpeg";
 import img1yamahaTenere700 from "../images/motors/img1yamahaTenere700.png";
@@ -695,94 +693,6 @@ export const motors = {
         "Take a short break from everyday life. Expand your horizons. With the BMW F 750 GS. The adventure bike masters all routes, whatever the terrain. The comprehensive standard equipment with ABS Pro, Dynamic Traction Control (DTC) and LED indicators, as well as the optional Pro riding modes, leaves nothing to be desired. And the new “extra low” seat height as special equipment makes embarking on your next adventure easier than ever before. So climb on the F 750 GS and experience the #SpiritOfGS.",
       ],
     },
-    {
-      id: "bmwF700GS",
-      name: "BMW F700GS",
-      brief:
-        "With Hard Luggage & Touring Screen included. For the F700GS we can also offer low suspension and/or low seat.",
-      link: "/bmw/bmw-f700-gs",
-      img1: img1BMWF700GS,
-      prices: [
-        { days: "15 to 21", peak: "$179.00", shoulder: "$159.00" },
-        { days: "6 to 14", peak: "$189.00", shoulder: "$169.00" },
-        { days: "2 to 5", peak: "$199.00", shoulder: "$179.00" },
-      ],
-      specs: [
-        {
-          key: "Engine Type",
-          value: "Parallel Twin",
-        },
-        {
-          key: "Cylinders",
-          value: "2",
-        },
-        {
-          key: "Engine Stroke",
-          value: "4-Stroke",
-        },
-        {
-          key: "Cooling",
-          value: "Liquid",
-        },
-        {
-          key: "Valves Per Cylinder",
-          value: "V4",
-        },
-        {
-          key: "Valve Configuration",
-          value: "DOHC",
-        },
-        {
-          key: "Compression Ratio",
-          value: "12.0:1",
-        },
-        {
-          key: "Starter",
-          value: "Electric",
-        },
-        {
-          key: "Fuel Requirements",
-          value: "Premium",
-        },
-        {
-          key: "Transmission Type",
-          value: "Manual",
-        },
-        {
-          key: "Number Of Speeds",
-          value: "6",
-        },
-        {
-          key: "Primary Drive (Rear Wheel)",
-          value: "Chain",
-        },
-        {
-          key: "Front Tire (Full Spec)",
-          value: "110/80 R19 59H",
-        },
-        {
-          key: "Rear Tire (Full Spec)",
-          value: "140/80 R17 69H",
-        },
-        {
-          key: "Front Brake Type",
-          value: "Dual Hydraulic Disc",
-        },
-        {
-          key: "Rear Brake Type",
-          value: "Hydraulic Disc",
-        },
-      ],
-      descriptionHeading:
-        "Carefree motorcycling fun for everyone! With the F 700 GS – the direct successor to the F 650 GS.",
-      description: [
-        "A shorter gear transmission ratio in the 75 bhp engine enhances agility while at the same time guaranteeing the bike's familiar top-class handling. This makes the F 700 GS an ideal all-round machine within the GS family, suitable for every kind of rider – no matter how experienced.",
-        "What was good has just got better: with ABS as standard* and ESA, not to mention ASC as an option, the ride is not just safer but also offers especially high comfort. Low weight, reduced seat height and a lowering option make the F 700 GS a perfect all-round enduro bike especially for female riders.",
-        "GS feeling everywhere: the design of the windshield and dial faces and the smoke-tinted turn indicators and LED rear light give the F 700 GS the grown-up look it deserves.",
-        "As usual, there is once again a wide range of options and special accessories for the F 700 GS to allow you to tailor your BMW to your individual preferences.",
-        "The F 700 GS. GS feeling everywhere.",
-      ],
-    },
   ],
   Honda: [
     {
@@ -1127,100 +1037,6 @@ export const motors = {
         "Renowned for its versatility, reliability and value.",
       description: [
         "The V-Strom 650 has attracted many riders who use it for touring, commuting, or a fun ride when the spirit moves them. It is a touchstone motorcycle balanced with a natural riding position, comfortable seat and a flexible engine character that produces stress-free riding during brief daily use or a high-mile adventure. Adventure bikes are definitely a thing, and aren’t showing any sign of going away anytime soon, and Suzuki’s V-Strom (Deutsch for stream) is definitely one of the major players advancing the cause, as it were. A couple of years ago, Suzuki made the decision to drop the V-Strom 650 Adventure, and focus its energies on the base model 650 and 650XT. The result is palpable with a number of improvements for the 2017 model year that will likely endear these rides to their fans even more. This year we have more power, plus a traction control system to help manage said power as well as some nifty aesthetic tweaks and more, so join me while I take a look at what the factory has in store for us.",
-      ],
-    },
-    {
-      id: "suzukiGSF1250",
-      name: "Suzuki GSF1250",
-      brief: "With hard Side luggage included and top box available.",
-      link: "/suzuki/suzuki-gsf1250",
-      img1: img1SuzukiGSF1250,
-      prices: [
-        { days: "15 to 21", peak: "$169.00", shoulder: "$149.00" },
-        { days: "6 to 14", peak: "$179.00", shoulder: "$159.00" },
-        { days: "2 to 5", peak: "$189.00", shoulder: "$169.00" },
-      ],
-      specs: [
-        {
-          key: "Bore x Stroke:",
-          value: "79.0mm x 64.0mm",
-        },
-        {
-          key: "Displacement",
-          value: "1255cc",
-        },
-        {
-          key: "Compression Ratio",
-          value: "10.5:1",
-        },
-        {
-          key: "Fuelling",
-          value: "Fuel Injected",
-        },
-        {
-          key: "Ignition",
-          value: "Electronic",
-        },
-        {
-          key: "Lubrication",
-          value: "Wet Sump",
-        },
-        {
-          key: "Transmission",
-          value: "6-speed",
-        },
-        {
-          key: "Rake / Trail",
-          value: "25.2 degrees / 104mm",
-        },
-        {
-          key: "Suspension Front",
-          value:
-            "43mm telescopic forks, coil spring, oil damped, adjustable preload",
-        },
-        {
-          key: "Suspension Rear",
-          value:
-            "Swing-arm, link type, coil spring, oil damped, adjustable preload",
-        },
-        {
-          key: "Wheels Front",
-          value: "17M/C x MT3.50",
-        },
-        {
-          key: "Wheels Front",
-          value: "17M/C x MT3.50",
-        },
-        {
-          key: "Wheels Rear:",
-          value: "17M/C x MT5.50",
-        },
-        {
-          key: "Brakes Front:",
-          value: "Double Disc Brake",
-        },
-        {
-          key: "Brakes Rear:",
-          value: "Disc Brake",
-        },
-        {
-          key: "Tyres Front:",
-          value: "120/70ZR17",
-        },
-        {
-          key: "Tyres Rear",
-          value: "180/55ZR17",
-        },
-        {
-          key: "Wheelbase",
-          value: "1,480mm",
-        },
-      ],
-      descriptionHeading: "A machine that truly owns the highway.",
-      description: [
-        "Introduced in 2007 as a replacement for the long running 1200 Bandit, the 1250 has a liquid-cooled engine and produces almost identical horsepower to the old air/oil-cooled unit.",
-        "The new engine meets Euro-3 emissions, but more importantly produces its maximum torque of 108nm at just 3750rpm. This makes the new model an awful lot quicker in real World riding, especially overtaking, now without the need to rev the machine to its limit.",
-        "The new six-speed bandit is fuel injected and has a more relaxed power delivery with a broad spread of torque throughout its rev range. The engine is designed specifically for this model and is a delight in all areas.",
       ],
     },
   ],
